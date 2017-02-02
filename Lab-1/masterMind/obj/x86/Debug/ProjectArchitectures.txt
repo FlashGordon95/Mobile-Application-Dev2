@@ -1,0 +1,1 @@
+c:\users\ryan\documents\visual studio 2015\Projects\masterMind\masterMind\masterMind.csproj;x86

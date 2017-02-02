@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="MastermindTake1.Game3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MastermindTake1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="spAllTurns" HorizontalAlignment="Left" 
+                    Margin="10, 10, 0, 0">
+            <!--<StackPanel x:Name="spTurn" Orientation="Horizontal" Margin="1"
+                        HorizontalAlignment="Center" >
+                <StackPanel x:Name="spPlayerPegs" Orientation="Horizontal" 
+                            Margin="3, 1, 3, 1">
+                    <Ellipse Height="30" Width="30" Margin="3" Fill="Transparent" 
+                             Stroke="Black" />
+                    <Ellipse Height="30" Width="30" Margin="3" Fill="Transparent" 
+                             Stroke="Black" />
+                    <Ellipse Height="30" Width="30" Margin="3" Fill="Transparent" 
+                             Stroke="Black" />
+                    <Ellipse Height="30" Width="30" Margin="3" Fill="Transparent" 
+                             Stroke="Black" />
+                </StackPanel>
+                <Grid x:Name="grdFeedback" Height="30" Width="30"
+                      Margin="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Ellipse Height="11" Width="11" Margin="2" Fill="Transparent" 
+                             Stroke="Black" Grid.Row="0" Grid.Column="0" />
+                    <Ellipse Height="11" Width="11" Margin="2" Fill="Transparent" 
+                             Stroke="Black" Grid.Row="0" Grid.Column="1" />
+                    <Ellipse Height="11" Width="11" Margin="2" Fill="Transparent" 
+                             Stroke="Black" Grid.Row="1" Grid.Column="0" />
+                    <Ellipse Height="11" Width="11" Margin="2" Fill="Transparent" 
+                             Stroke="Black" Grid.Row="1" Grid.Column="1" />
+                </Grid>
+            </StackPanel>-->
+        </StackPanel>
+    </Grid>
+</Page>
