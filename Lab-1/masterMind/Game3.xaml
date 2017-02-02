@@ -8,9 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel x:Name="spAllTurns" HorizontalAlignment="Left" 
+        <StackPanel HorizontalAlignment="Left" >
+            <StackPanel x:Name="spAllTurns" HorizontalAlignment="Left" 
                     Margin="10, 10, 0, 0">
-            <!--<StackPanel x:Name="spTurn" Orientation="Horizontal" Margin="1"
+                <!--<StackPanel x:Name="spTurn" Orientation="Horizontal" Margin="1"
                         HorizontalAlignment="Center" >
                 <StackPanel x:Name="spPlayerPegs" Orientation="Horizontal" 
                             Margin="3, 1, 3, 1">
@@ -43,6 +44,25 @@
                              Stroke="Black" Grid.Row="1" Grid.Column="1" />
                 </Grid>
             </StackPanel>-->
+            </StackPanel>
+            <Button Content="Submit" x:Name="btnSubmit"                     
+                    HorizontalAlignment="Center" Tapped="btnSubmit_Tapped" />
         </StackPanel>
+
+        <StackPanel x:Name="spChooseColour" Orientation="Horizontal"
+                    Height="24" Margin="2" HorizontalAlignment="Center" 
+                    Visibility="Collapsed" >
+            <Ellipse x:Name="elRed" Stroke="Black" Height="20" Width="20" Fill="Red" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <Ellipse x:Name="elGr" Stroke="Black" Height="20" Width="20" Fill="Green" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <Ellipse x:Name="elBlack" Stroke="Black" Height="20" Width="20" Fill="Black" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <Ellipse x:Name="elWhite" Stroke="Black" Height="20" Width="20" Fill="White" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <Ellipse x:Name="elBlue" Stroke="Black" Height="20" Width="20" Fill="Blue" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <Ellipse x:Name="elBrown" Stroke="Black" Height="20" Width="20" Fill="Brown" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <Ellipse x:Name="elYellow" Stroke="Black" Height="20" Width="20" Fill="Yellow" Margin="2" Tapped="chooseColourPeg_Tapped" />
+            <!--<Ellipse x:Name="elBlank" Stroke="Black" Height="20" Width="20" Fill="Transparent" Margin="2" Tapped="chooseColourPeg_Tapped" />-->
+        </StackPanel>
+
+        <TextBlock x:Name="tblTest" Text=" " VerticalAlignment="Bottom" />
+
     </Grid>
 </Page>
