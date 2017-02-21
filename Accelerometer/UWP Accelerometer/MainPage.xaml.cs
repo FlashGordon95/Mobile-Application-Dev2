@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Sensors;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
+using Windows.UI.Core;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -34,6 +37,61 @@ namespace UWP_Accelerometer
             this.InitializeComponent();
             // when the page is loaded, fire this event.
             this.Loaded += MainPage_Loaded;
+            this.KeyDown += new KeyEventHandler(Window_KeyDown);
+            Debug.WriteLine("Pressed start");
+            Window.Current.CoreWindow.KeyDown += CoreWindow_KeyDown;
+
+        }
+        private void CoreWindow_KeyDown(Windows.UI.Core.CoreWindow sender, KeyEventArgs args)
+        {
+            //use a switch
+            switch (args.VirtualKey)
+            {
+                case VirtualKey.Down:
+                    // do something
+                    Debug.WriteLine("Pressed down");
+                    break;
+                case VirtualKey.Up:
+                    // do something
+                    Debug.WriteLine("Pressed up");
+                    break;
+                case VirtualKey.Left:
+                    // do something
+                    Debug.WriteLine("Pressed left");
+                    break;
+                case VirtualKey.Right:
+                    // do something
+                    Debug.WriteLine("Pressed right");
+                    break;
+            
+            }
+            if(args.VirtualKey == Windows.System.VirtualKey.Left)
+            {
+
+            }
+        }
+
+        private void Window_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            // ... Test for Down key.
+            switch (e.Key)
+            {
+                case VirtualKey.Down:
+                    // do something
+                    Debug.WriteLine("Pressed d");
+                    updateEllipsePosition("Left");
+                    break;
+                case VirtualKey.Up:
+                    // do something
+                    break;
+                case VirtualKey.Left:
+                    // do something
+                    break;
+                case VirtualKey.Right:
+                    // do something
+                    break;
+            
+            }
         }
 
         #region Timers Information
@@ -62,9 +120,8 @@ namespace UWP_Accelerometer
             MessageDialog msgDialog = new MessageDialog("Standard Message");
             if (_myAcc == null)
             {
-                // tell someone who cares.
                 // not there
-                msgDialog.Content = "Cheap pc, no accelerometer";
+                msgDialog.Content = "No accelerometer, must have a Macbook :(";
                 await msgDialog.ShowAsync();
             }
             else
@@ -86,6 +143,13 @@ namespace UWP_Accelerometer
                 _myAcc.ReportInterval = _desiredReportInterval; 
             }
         }
+
+        private void _timer_tick(object sender, object e)
+        {
+
+        }
+        
+       // private void MainPage_UnLoaded
 
         private async void _myAcc_Shaken(Accelerometer sender, AccelerometerShakenEventArgs args)
         {
@@ -128,6 +192,45 @@ namespace UWP_Accelerometer
 
             zLine.X2 = zLine.X1 - reading.AccelerationZ * 100;
             zLine.Y2 = zLine.Y1 + reading.AccelerationZ * 100;
+
+            updateEllipsePosition(reading);
+
+
+        }
+        double increment = 2;
+        private void updateEllipsePosition(String reading)
+        {
+            
+
+                double left = (double)ellipseKid.GetValue(Canvas.LeftProperty);
+                //move right
+                left = left - increment;
+                ellipseKid.SetValue(Canvas.LeftProperty, left);
+            
+           
+
+
+        }
+        private void updateEllipsePosition(AccelerometerReading reading)
+        {
+           if(reading.AccelerationX > 0)
+            {
+
+                double left = (double)ellipseKid.GetValue(Canvas.LeftProperty);
+                //move right
+                left = left - increment;
+                ellipseKid.SetValue(Canvas.LeftProperty, left);
+            }
+           else if (reading.AccelerationX < 0)
+            {
+                //move left
+            }
+           else
+            {
+                // reading.AccelerationX is 0
+
+           //do nothing
+            }
 
 
         }
