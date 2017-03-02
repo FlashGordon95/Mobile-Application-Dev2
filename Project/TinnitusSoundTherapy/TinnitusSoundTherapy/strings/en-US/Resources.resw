@@ -121,6 +121,12 @@
     <value>Start a session</value>
     <comment>Used to show the user how to enter the mode.</comment>
   </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Alleviate or lessen the effects of tinnitus via sound therapy.</value>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>By playing Binaural sound frequencies we effectively mask the tinnitus and allow our brain time to tune it out.</value>
+  </data>
   <data name="panLabel.Text" xml:space="preserve">
     <value>Control Pan L - R</value>
   </data>

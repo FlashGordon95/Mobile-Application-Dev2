@@ -91,7 +91,6 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="project.json" />
     <PRIResource Include="strings\en-US\Resources.resw" />
-    <None Include="Windows-universal-samples-master.zip" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
