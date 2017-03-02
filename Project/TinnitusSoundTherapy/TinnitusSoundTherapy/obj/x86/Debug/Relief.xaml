@@ -8,11 +8,27 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Slider x:ConnectionId='1' x:Name="Pan" HorizontalAlignment="Left" Margin="154,635,0,0" VerticalAlignment="Top" Width="804"/>
-        <Slider x:ConnectionId='2' x:Name="Volume" HorizontalAlignment="Left" Margin="154,508,0,0" VerticalAlignment="Top" Width="804"/>
-        <TextBlock x:Uid="volumeLabel" HorizontalAlignment="Left" Margin="154,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="122"/>
+        
+        <!-- Back button to return to main page -->
+        <Button x:ConnectionId='1' x:Uid="backButtonRelief" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="140"                     />
+        
+        <Slider x:ConnectionId='2' x:Name="Pan" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Center" Width="438" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Slider.RenderTransform>
+                <CompositeTransform Rotation="270"/>
+            </Slider.RenderTransform>
+        </Slider>
+        
+        
         <TextBlock x:Uid="panLabel" HorizontalAlignment="Left" Margin="154,588,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="150"/>
-
+        
+      
+            <TextBlock x:Uid="volumeLabel" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="100"/>
+        <Slider x:ConnectionId='3' x:Name="Volume" Width="435" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"   BorderThickness="150,0,50,0">
+            <Slider.RenderTransform>
+                <CompositeTransform Rotation="270"/>
+            </Slider.RenderTransform>
+        </Slider>
+    
     </Grid>
 </Page>
 

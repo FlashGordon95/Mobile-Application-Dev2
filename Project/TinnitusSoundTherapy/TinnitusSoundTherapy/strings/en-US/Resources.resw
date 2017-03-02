@@ -117,20 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>Learn more about tinnitus</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Back to main page</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
   <data name="enterSessionButton.Content" xml:space="preserve">
     <value>Start a session</value>
     <comment>Used to show the user how to enter the mode.</comment>
   </data>
   <data name="mainPageDescription.Text" xml:space="preserve">
     <value>Alleviate or lessen the effects of tinnitus via sound therapy.</value>
+    <comment>What the app does</comment>
   </data>
   <data name="mainPageSubdescription.Text" xml:space="preserve">
     <value>By playing Binaural sound frequencies we effectively mask the tinnitus and allow our brain time to tune it out.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
   </data>
   <data name="panLabel.Text" xml:space="preserve">
     <value>Control Pan L - R</value>
+    <comment>A label for the pan control</comment>
   </data>
   <data name="volumeLabel.Text" xml:space="preserve">
     <value>Control Volume</value>
+    <comment>A label for the volume control</comment>
   </data>
 </root>
