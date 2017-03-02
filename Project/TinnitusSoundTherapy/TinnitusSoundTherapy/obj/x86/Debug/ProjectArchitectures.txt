@@ -1,1 +1,1 @@
-c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\TinnitusSoundTherapy.csproj;x86
+C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\TinnitusSoundTherapy.csproj;x86

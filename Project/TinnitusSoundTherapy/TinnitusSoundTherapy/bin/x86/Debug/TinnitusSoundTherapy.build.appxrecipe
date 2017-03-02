@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3808c88b-2183-4cb0-90e3-166807537eac</PackageIdentityName>
     <PackageIdentityPublisher>CN=Ryan</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.exe">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.exe">
       <PackagePath>entrypoint\TinnitusSoundTherapy.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -69,6 +69,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\NAudio\1.8.0\lib\windows8\NAudio.Win8.dll">
+      <PackagePath>NAudio.Win8.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\runtime.any.System.Private.DataContractSerialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
@@ -334,47 +337,47 @@
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.xr.xml">
       <PackagePath>TinnitusSoundTherapy.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ryan\documents\visual studio 2015\Projects\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\TinnitusSoundTherapy.exe">
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\TinnitusSoundTherapy.exe">
       <PackagePath>TinnitusSoundTherapy.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
