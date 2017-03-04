@@ -66,7 +66,12 @@ namespace TinnitusSoundTherapy
 
         }
 
-       
+        private  void Pan_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            audioFile.Balance = 100;
+            Debug.WriteLine(audioFile.Balance);
+            Debug.WriteLine(Pan.Value);
+        }
     }
 
 
