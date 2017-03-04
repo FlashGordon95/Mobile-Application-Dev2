@@ -15,7 +15,6 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using NAudio.Wave;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -28,15 +27,15 @@ namespace TinnitusSoundTherapy
     {
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
-        Mp3Frame audio;
+        
         public Relief()
         {
             this.InitializeComponent();
 
         }
 
-        
 
+      
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
@@ -52,8 +51,10 @@ namespace TinnitusSoundTherapy
             Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
             var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
             audioFile.SetSource(stream, file.ContentType);
+          
+            
             audioFile.Play();
-
+            
 
         }
         /// <summary>
@@ -68,11 +69,26 @@ namespace TinnitusSoundTherapy
 
         private  void Pan_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
-            audioFile.Balance = 100;
-            Debug.WriteLine(audioFile.Balance);
-            Debug.WriteLine(Pan.Value);
+            Slider slider = sender as Slider;
+
+            if(slider != null)
+            {
+                
+
+
+        audioFile.Balance = Pan.Value;
+                audioFile.Play();
+            }
+        }
+
+        private void changeSound()
+        {
+            Debug.WriteLine(audioFile.Position);
+
+
         }
     }
+
 
 
 
