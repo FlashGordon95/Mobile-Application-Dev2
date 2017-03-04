@@ -45,7 +45,11 @@
       <RootProperty Name="Width" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="StepFrequency" />
       <RootProperty Name="BorderThickness" />
+      <RootEvent Name="ValueChanged" />
     </RootType>
     <RootType FullName="TinnitusSoundTherapy.Relief" />
   </Roots.RootTypes>

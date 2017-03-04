@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -14,6 +15,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using NAudio.Wave;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,7 +27,8 @@ namespace TinnitusSoundTherapy
     public sealed partial class Relief : Page
     {
         CoreWindow cw = Window.Current.CoreWindow;
-
+        MediaElement audioFile = new MediaElement();
+        Mp3Frame audio;
         public Relief()
         {
             this.InitializeComponent();
@@ -44,13 +47,26 @@ namespace TinnitusSoundTherapy
         /// </summary>
         private async void button_Play_Click(object sender, RoutedEventArgs e)
         {
-            MediaElement audioFile = new MediaElement();
+            
             Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
             Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
             var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
             audioFile.SetSource(stream, file.ContentType);
             audioFile.Play();
+
+
         }
+        /// <summary>
+        /// A handler for the stop button. When clicked will stop the playing sound.
+        /// Using MediaElement to handle the audio itself.
+        /// </summary>
+        private void button_Stop_Click(object sender, RoutedEventArgs e)
+        {
+            audioFile.Stop();
+
+        }
+
+       
     }
 
 

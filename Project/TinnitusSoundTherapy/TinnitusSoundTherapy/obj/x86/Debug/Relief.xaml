@@ -10,9 +10,9 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         
         <!-- Back button to return to main page -->
-        <Button x:Uid="backButtonRelief" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="140" Click="Button_Click"/>
+        <Button x:ConnectionId='1' x:Uid="backButtonRelief" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="140"                     />
         
-        <Slider x:Name="Pan" HorizontalAlignment="Left" Margin="101,0,0,150" VerticalAlignment="Bottom" Width="438" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueChanged="Pan_ValueChanged" Maximum="1" Minimum="-1" StepFrequency="0.1">
+        <Slider x:ConnectionId='2' x:Name="Pan" HorizontalAlignment="Left" Margin="101,0,0,150" VerticalAlignment="Bottom" Width="438" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"                                 Maximum="1" Minimum="-1" StepFrequency="0.1">
            
         </Slider>
         
@@ -21,12 +21,13 @@
         
       
             <TextBlock x:Uid="volumeLabel" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="100"/>
-        <Slider x:Name="Volume" Width="435" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"   BorderThickness="150,0,50,0" VerticalAlignment="Bottom" Margin="101,0,60,100" Maximum="1" Minimum="-1" StepFrequency="0.1"/>
+        <Slider x:ConnectionId='3' x:Name="Volume" Width="435" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"   BorderThickness="150,0,50,0" VerticalAlignment="Bottom" Margin="101,0,60,100" Maximum="1" Minimum="-1" StepFrequency="0.1"/>
         <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
-        <Button x:Uid="playButton" Content="" HorizontalAlignment="Left" Margin="101,132,0,0" VerticalAlignment="Top" Click="button_Play_Click"/>
+        <Button x:ConnectionId='4' x:Uid="playButton" Content="" HorizontalAlignment="Left" Margin="101,132,0,0" VerticalAlignment="Top"                          />
 
         <!-- A button with a localised versoin of the word 'stop'. To be used to start playing sound. -->
-        <Button x:Uid="stopButton" Content="" HorizontalAlignment="Left" Margin="101,200,0,0" VerticalAlignment="Top" Click="button_Stop_Click"/>
+        <Button x:ConnectionId='5' x:Uid="stopButton" Content="" HorizontalAlignment="Left" Margin="101,200,0,0" VerticalAlignment="Top"                          />
 
     </Grid>
 </Page>
+
