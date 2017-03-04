@@ -12,10 +12,8 @@
         <!-- Back button to return to main page -->
         <Button x:Uid="backButtonRelief" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="140" Click="Button_Click"/>
         
-        <Slider x:Name="Pan" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Center" Width="438" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
-            <Slider.RenderTransform>
-                <CompositeTransform Rotation="270"/>
-            </Slider.RenderTransform>
+        <Slider x:Name="Pan" HorizontalAlignment="Left" Margin="101,0,0,150" VerticalAlignment="Bottom" Width="438" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+           
         </Slider>
         
         
@@ -23,11 +21,9 @@
         
       
             <TextBlock x:Uid="volumeLabel" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="100"/>
-        <Slider x:Name="Volume" Width="435" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"   BorderThickness="150,0,50,0">
-            <Slider.RenderTransform>
-                <CompositeTransform Rotation="270"/>
-            </Slider.RenderTransform>
-        </Slider>
-    
+        <Slider x:Name="Volume" Width="435" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"   BorderThickness="150,0,50,0" VerticalAlignment="Bottom" Margin="101,0,60,100"/>
+        <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
+        <Button x:Uid="playButton" Content="" HorizontalAlignment="Left" Margin="101,132,0,0" VerticalAlignment="Top" Click="button_Play_Click"/>
+
     </Grid>
 </Page>

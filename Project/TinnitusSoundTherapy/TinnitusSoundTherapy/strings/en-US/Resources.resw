@@ -141,6 +141,10 @@
     <value>Control Pan L - R</value>
     <comment>A label for the pan control</comment>
   </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Play</value>
+    <comment>A Button to play sound</comment>
+  </data>
   <data name="volumeLabel.Text" xml:space="preserve">
     <value>Control Volume</value>
     <comment>A label for the volume control</comment>

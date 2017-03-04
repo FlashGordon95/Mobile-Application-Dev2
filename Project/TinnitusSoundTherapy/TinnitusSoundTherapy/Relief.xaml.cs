@@ -25,9 +25,6 @@ namespace TinnitusSoundTherapy
     public sealed partial class Relief : Page
     {
         CoreWindow cw = Window.Current.CoreWindow;
-        bool IsPlaying = false;
-
-        SystemMediaTransportControls systemMediaControls = null;
 
         public Relief()
         {
@@ -35,14 +32,24 @@ namespace TinnitusSoundTherapy
 
         }
 
-        private void button_Play_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+        /// <summary>
+        /// A handler for the play button. When clicked will play sound.
+        /// Using MediaElement to handle the audio itself.
+        /// </summary>
+        private async void button_Play_Click(object sender, RoutedEventArgs e)
+        {
+            MediaElement audioFile = new MediaElement();
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
+            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+            audioFile.SetSource(stream, file.ContentType);
+            audioFile.Play();
         }
     }
 
