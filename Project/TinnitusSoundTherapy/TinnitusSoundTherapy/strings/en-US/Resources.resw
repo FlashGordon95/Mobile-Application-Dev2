@@ -129,6 +129,18 @@
     <value>Start a session</value>
     <comment>Used to show the user how to enter the mode.</comment>
   </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. When starting set the volume to Low. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. Gradually raise the volume of the sound until it masks the sound you hear.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. Do not listen on full volume unless needed!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Instructions :</value>
+  </data>
   <data name="mainPageDescription.Text" xml:space="preserve">
     <value>Alleviate or lessen the effects of tinnitus via sound therapy.</value>
     <comment>What the app does</comment>
@@ -140,6 +152,9 @@
   <data name="panLabel.Text" xml:space="preserve">
     <value>Control Pan L - R</value>
     <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>You will need to Pan the audio to your desired Balance before playing!</value>
   </data>
   <data name="playButton.Content" xml:space="preserve">
     <value>Play</value>

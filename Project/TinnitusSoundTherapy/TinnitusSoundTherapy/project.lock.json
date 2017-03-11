@@ -3,6 +3,12 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -236,6 +242,17 @@
           "System.ServiceModel.Security": "4.0.0",
           "System.Text.Encoding.CodePages": "4.0.0",
           "System.Xml.XmlSerializer": "4.0.10"
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -1880,6 +1897,12 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -2062,6 +2085,17 @@
           "System.ServiceModel.Security": "4.0.0",
           "System.Text.Encoding.CodePages": "4.0.0",
           "System.Xml.XmlSerializer": "4.0.10"
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -3623,6 +3657,12 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3803,6 +3843,17 @@
           "System.ServiceModel.Security": "4.0.0",
           "System.Text.Encoding.CodePages": "4.0.0",
           "System.Xml.XmlSerializer": "4.0.10"
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -5323,6 +5374,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5511,6 +5568,17 @@
         "type": "package",
         "native": {
           "runtimes/win10-x64/native/_._": {}
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -7075,6 +7143,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7255,6 +7329,17 @@
           "System.ServiceModel.Security": "4.0.0",
           "System.Text.Encoding.CodePages": "4.0.0",
           "System.Xml.XmlSerializer": "4.0.10"
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -8775,6 +8860,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -8963,6 +9054,17 @@
         "type": "package",
         "native": {
           "runtimes/win10-x86/native/_._": {}
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -10527,6 +10629,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "Microsoft.Advertising.JS/10.1609.2": {
+        "type": "package"
+      },
+      "Microsoft.Advertising.Xaml/10.1609.2": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -10707,6 +10815,17 @@
           "System.ServiceModel.Security": "4.0.0",
           "System.Text.Encoding.CodePages": "4.0.0",
           "System.Xml.XmlSerializer": "4.0.10"
+        }
+      },
+      "Microsoft.Services.Store.Engagement/10.1610.0": {
+        "type": "package"
+      },
+      "Microsoft.Services.Store.SDK/10.1610.31001": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Advertising.JS": "10.1609.2",
+          "Microsoft.Advertising.Xaml": "10.1609.2",
+          "Microsoft.Services.Store.Engagement": "10.1610.0"
         }
       },
       "Microsoft.VisualBasic/10.0.0": {
@@ -12228,6 +12347,84 @@
     }
   },
   "libraries": {
+    "Microsoft.Advertising.JS/10.1609.2": {
+      "sha512": "f0489NzVFNzjnjrkWemG+NjjVDaCKluBqJFJypyxc83PEm8Wlt7sO9ntJZTYgJZuPzhng9/aIc5fpuCcEPfUhA==",
+      "type": "package",
+      "files": [
+        "Microsoft.Advertising.JS.10.1609.2.nupkg.sha512",
+        "Microsoft.Advertising.JS.nuspec",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/Appx/ARM/Microsoft.Advertising.JavaScript.ARM.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/Appx/x64/Microsoft.Advertising.JavaScript.x64.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/Appx/x86/Microsoft.Advertising.JavaScript.x86.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/ad.js",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/ar/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/cs/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/da/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/de/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/el/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/es/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/et/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/fi/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/fr/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/he/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/hu/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/it/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/ja/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/ko/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/nb/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/nl/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/pl/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/pt-BR/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/pt-PT/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/ru/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/zh-CN/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/DesignTime/CommonConfiguration/neutral/Microsoft.Advertising.JavaScript/metadata/zh-TW/ad.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.JavaScript/10.0/SDKManifest.xml",
+        "build/Microsoft.Advertising.JS.targets"
+      ]
+    },
+    "Microsoft.Advertising.Xaml/10.1609.2": {
+      "sha512": "E4O1qd99bACtTfdtZmiWd0GmaR6qM/BO51D6DH1pJM8km7zcuhWaBjM5d0PrgVYNS20wCp7Bqp3leYi9qrjmsg==",
+      "type": "package",
+      "files": [
+        "Microsoft.Advertising.Xaml.10.1609.2.nupkg.sha512",
+        "Microsoft.Advertising.Xaml.nuspec",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/Appx/ARM/Microsoft.Advertising.Xaml.ARM.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/Appx/x64/Microsoft.Advertising.Xaml.x64.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/Appx/x86/Microsoft.Advertising.Xaml.x86.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/License.rtf",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/Redist.txt",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/Redist/CommonConfiguration/x86/Microsoft.Advertising.dll",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/Microsoft.Advertising.winmd",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/ar/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/cs/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/da/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/de/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/el/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/en/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/es/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/et/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/fi/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/fr/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/he/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/hu/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/it/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/ja/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/ko/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/nb/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/nl/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/pl/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/pt-BR/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/pt-PT/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/ru/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/zh-CN/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/References/CommonConfiguration/neutral/zh-TW/Microsoft.Advertising.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/SDKManifest.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Advertising.Xaml/10.0/extension.vsixmanifest",
+        "build/Microsoft.Advertising.XAML.targets"
+      ]
+    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "package",
@@ -12751,6 +12948,32 @@
         "runtimes/win81-x86/native/api-ms-win-core-sysinfo-l1-2-2.dll",
         "runtimes/win81-x86/native/api-ms-win-core-sysinfo-l1-2-3.dll",
         "runtimes/win81-x86/native/api-ms-win-security-cpwl-l1-1-0.dll"
+      ]
+    },
+    "Microsoft.Services.Store.Engagement/10.1610.0": {
+      "sha512": "wHdY3PxAHD4tLYSNiLn575R7P73VZSYXM7sapyqfB4w9nbbukDvbjJS5gyzbs9NPzGhOtki9LH0CikaJ8gNFKQ==",
+      "type": "package",
+      "files": [
+        "Microsoft.Services.Store.Engagement.10.1610.0.nupkg.sha512",
+        "Microsoft.Services.Store.Engagement.nuspec",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/Appx/ARM/Microsoft.Services.Store.Engagement.ARM.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/Appx/x64/Microsoft.Services.Store.Engagement.x64.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/Appx/x86/Microsoft.Services.Store.Engagement.x86.10.0.appx",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/License.rtf",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/Redist.txt",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/References/CommonConfiguration/neutral/Microsoft.Services.Store.Engagement.winmd",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/References/CommonConfiguration/neutral/en/Microsoft.Services.Store.Engagement.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/SDKManifest.xml",
+        "SDK/Windows Kits/10/ExtensionSDKs/Microsoft.Services.Store.Engagement/10.0/extension.vsixmanifest",
+        "build/Microsoft.Services.Store.Engagement.targets"
+      ]
+    },
+    "Microsoft.Services.Store.SDK/10.1610.31001": {
+      "sha512": "Eu523cLxWZeglK7YcTJynB5mDLtSiWEwMF88igasAyDAKOJKfUP5q3rLVBnmCpAMONQNjq75si3g5+a4oeMY+Q==",
+      "type": "package",
+      "files": [
+        "Microsoft.Services.Store.SDK.10.1610.31001.nupkg.sha512",
+        "Microsoft.Services.Store.SDK.nuspec"
       ]
     },
     "Microsoft.VisualBasic/10.0.0": {
@@ -15497,7 +15720,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
+      "Microsoft.Services.Store.SDK >= 10.1610.31001"
     ],
     "UAP,Version=v10.0": []
   }

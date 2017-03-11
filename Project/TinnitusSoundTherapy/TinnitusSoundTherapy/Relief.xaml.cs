@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Advertising.WinRT.UI;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -27,12 +28,15 @@ namespace TinnitusSoundTherapy
     {
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
-        private TimeSpan thePosition;
+        TimeSpan thePosition;
+        MainPage rootPage;
 
         public Relief()
         {
+            
             this.InitializeComponent();
 
+            DataContext = this;
         }
 
 
@@ -58,8 +62,26 @@ namespace TinnitusSoundTherapy
           
             
             audioFile.Play();
+
+
             
 
+
+            
+        }
+
+        // This is an error handler for the interstitial ad.
+        private void OnErrorOccurred(object sender, AdErrorEventArgs e)
+        {
+           // rootPage.NotifyUser($"An error occurred. {e.ErrorCode}: {e.ErrorMessage}", NotifyType.ErrorMessage);
+        }
+
+        // This is an event handler for the ad control. It's invoked when the ad is refreshed.
+        private void OnAdRefreshed(object sender, RoutedEventArgs e)
+        {
+            // We increment the ad count so that the message changes at every refresh.
+           // adCount++;
+           // rootPage.NotifyUser($"Advertisement #{adCount}", NotifyType.StatusMessage);
         }
         /// <summary>
         /// A handler for the stop button. When clicked will stop the playing sound.
