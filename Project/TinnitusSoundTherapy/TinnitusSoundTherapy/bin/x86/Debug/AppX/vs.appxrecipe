@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-04T18:17:25.348</Modified>
+      <Modified>2017-03-11T15:15:41.374</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.exe">
       <PackagePath>entrypoint\TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-03-04T18:17:24.481</Modified>
+      <Modified>2017-03-11T15:15:40.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,7 +492,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.xr.xml">
       <PackagePath>TinnitusSoundTherapy.xr.xml</PackagePath>
-      <Modified>2017-03-04T16:04:03.410</Modified>
+      <Modified>2017-03-11T15:15:40.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -501,11 +501,11 @@
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-04T18:17:25.052</Modified>
+      <Modified>2017-03-11T15:15:41.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\TinnitusSoundTherapy.exe">
       <PackagePath>TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-03-04T18:17:25.343</Modified>
+      <Modified>2017-03-11T15:15:41.368</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

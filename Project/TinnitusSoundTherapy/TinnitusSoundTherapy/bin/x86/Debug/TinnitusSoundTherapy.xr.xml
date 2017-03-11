@@ -18,6 +18,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
       <RootProperty Name="Height" />
       <RootEvent Name="Click" />
     </RootType>
@@ -36,8 +37,18 @@
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="TinnitusSoundTherapy.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetAlignLeftWith" />
+      <RootMethod Name="SetAlignLeftWith" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -48,6 +59,7 @@
       <RootProperty Name="Maximum" />
       <RootProperty Name="Minimum" />
       <RootProperty Name="StepFrequency" />
+      <RootProperty Name="MaxWidth" />
       <RootProperty Name="BorderThickness" />
       <RootEvent Name="ValueChanged" />
     </RootType>

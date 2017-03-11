@@ -11,8 +11,8 @@
         <!-- Button to change view to the page for therapy -->
         <Button x:Uid="enterSessionButton" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="300" Click="button_Click"/>
         <!-- Text blocks used to describe the app - text gathered from the resources file -->
-        <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,0,0,300"/>
-        <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="24" Margin="0,0,0,200"/>
+        <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,0,0,400"/>
+        <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="18" Margin="0,0,0,200"/>
         <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
 
         <Button x:Uid="aboutPage" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="" Margin="0,0,0,50" Width="300" />

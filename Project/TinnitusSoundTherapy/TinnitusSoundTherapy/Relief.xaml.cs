@@ -27,7 +27,8 @@ namespace TinnitusSoundTherapy
     {
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
-        
+        private TimeSpan thePosition;
+
         public Relief()
         {
             this.InitializeComponent();
@@ -35,7 +36,10 @@ namespace TinnitusSoundTherapy
         }
 
 
-      
+        /// <summary>
+        /// Navagate to the main page again.
+        /// Using MediaElement to handle the audio itself.
+        /// </summary>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
@@ -64,20 +68,57 @@ namespace TinnitusSoundTherapy
         private void button_Stop_Click(object sender, RoutedEventArgs e)
         {
             audioFile.Stop();
-
         }
-
-        private  void Pan_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        /// <summary>
+        /// A handler for the pan slider. 
+        /// When the Pan slider is changed we will want to change the sound in accordance to this.
+        /// The slider itself has a range of -1 to 1 with a step of 0.1
+        /// Using MediaElement.Balance to get and set the pan.
+        /// Using MediaElement to handle the audio itself.
+        /// </summary>
+        private async void Pan_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
             Slider slider = sender as Slider;
 
-            if(slider != null)
+            if (slider != null)
             {
-                
 
+                switch (audioFile.CurrentState)
+                {
+                    case MediaElementState.Closed:
+                        audioFile.Balance = Pan.Value;
+                        audioFile.Volume = .1;
+                        Debug.WriteLine("Pan value is now" + audioFile.Balance);
+                        break;
+                    case MediaElementState.Opening:
+                        break;
+                    case MediaElementState.Buffering:
+                        break;
+                    case MediaElementState.Playing:
+                        audioFile.Pause();
+                        Debug.WriteLine("Media currently plating. Time:" + audioFile.Position);
+                        thePosition = audioFile.Position; //get old position for audio
+                        audioFile.Balance = Pan.Value; //pan the media element 
+                        audioFile.Position = thePosition; //restore the position of the track
+                        //we now load up the track again
+                        Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+                        Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
+                        var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+                        audioFile.SetSource(stream, file.ContentType);
 
-        audioFile.Balance = Pan.Value;
-                audioFile.Play();
+                        audioFile.Position = thePosition; //restore the position of the track
+                        break;
+                    case MediaElementState.Paused:
+                        audioFile.Balance = Pan.Value;
+                        Debug.WriteLine("Pan value is now" + audioFile.Balance);
+                        break;
+                    case MediaElementState.Stopped:
+                        audioFile.Balance = Pan.Value;
+                        Debug.WriteLine("Pan value is now" + audioFile.Balance);
+                        break;
+                    default:
+                        break;
+                }
             }
         }
 
