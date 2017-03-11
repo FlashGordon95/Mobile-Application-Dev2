@@ -150,6 +150,11 @@ namespace TinnitusSoundTherapy
 
 
         }
+
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            Splitter.IsPaneOpen = !Splitter.IsPaneOpen;
+        }
     }
 
 

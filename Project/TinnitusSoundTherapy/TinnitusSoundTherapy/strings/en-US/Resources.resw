@@ -129,6 +129,9 @@
     <value>Start a session</value>
     <comment>Used to show the user how to enter the mode.</comment>
   </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Tinnitus Sound Therapy</value>
+  </data>
   <data name="instructions.Text" xml:space="preserve">
     <value>1.  When starting set the volume to Low. </value>
   </data>
