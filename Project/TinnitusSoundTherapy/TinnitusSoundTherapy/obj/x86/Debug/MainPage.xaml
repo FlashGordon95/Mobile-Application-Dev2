@@ -6,16 +6,73 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+   
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <!-- Button to change view to the page for therapy -->
-        <Button x:ConnectionId='1' x:Uid="enterSessionButton" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="300"                     />
-        <!-- Text blocks used to describe the app - text gathered from the resources file -->
-        <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,0,0,400"/>
-        <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="18" Margin="0,0,0,200"/>
-        <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <!-- Grid Row Definitions-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- SplitView -->
+        <SplitView x:ConnectionId='1' x:Name="Splitter" IsPaneOpen="False" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
+            <!-- Split View Left Pane.-->
+            <SplitView.Pane>
+                <!-- Left Side menu.-->
+                <RelativePanel Margin="10,0,0,0">
+                    <TextBlock x:ConnectionId='6' x:Name="SampleTitle" Text="Menu" TextWrapping="Wrap" Margin="0,10,0,0"/>
 
-        <Button x:Uid="aboutPage" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="" Margin="0,0,0,50" Width="300" />
+                    <ListBox x:ConnectionId='7' x:Name="PageControl"                                                
+                 SelectionMode="Single" HorizontalAlignment="Left" Background="Transparent" BorderThickness="0"
+                 VerticalAlignment="Top" RelativePanel.Below="SampleTitle" Margin="0,10,0,0" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Title}" FontWeight="Bold" />
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </RelativePanel>
+            </SplitView.Pane>
+
+            <!-- SplitView Right Panel -->
+
+
+            <RelativePanel>
+                <StackPanel RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Stretch">
+
+
+                    </StackPanel>
+
+
+                    <TextBlock x:Uid="Header" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,50,0,0"/>
+                    <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,50,0,0"/>
+                    <!-- Button to change view to the page for therapy -->
+                    <Button x:ConnectionId='8' x:Uid="enterSessionButton" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="300"                      Margin="0,100,0,0"/>
+                    <!-- Text blocks used to describe the app - text gathered from the resources file -->
+                    <TextBlock x:Uid="howItWorks" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="24" Margin="0,20,0,0"/>
+                    <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="18" Margin="0,50,0,0"/>
+
+
+                    <Button x:Uid="aboutPage" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="" Margin="0,0,0,50" Width="300" />
+
+                </StackPanel>
+
+            </RelativePanel>
+        </SplitView>
+
+        <!-- Header Stack Panel -->
+        <StackPanel x:ConnectionId='2' x:Name="HeaderPanel" Orientation="Horizontal">
+            <Border Background="{ThemeResource SystemControlBackgroundChromeMediumBrush}" Grid.Row="0">
+                <!-- Menu Toggle Button-->
+                <ToggleButton x:ConnectionId='4'                               VerticalAlignment="Stretch" Foreground="{ThemeResource ApplicationForegroundThemeBrush}"  >
+                    <ToggleButton.Content>
+                        <FontIcon x:ConnectionId='5' x:Name="Hamburger" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" Margin="0,10,0,0"/>
+                    </ToggleButton.Content>
+                </ToggleButton>
+            </Border>
+            <TextBlock x:ConnectionId='3' x:Name="Header" x:Uid="Header" Text=""  Margin="0,15,0,0" />
+        </StackPanel>
     </Grid>
 </Page>
 

@@ -132,6 +132,9 @@
   <data name="Header.Text" xml:space="preserve">
     <value>Tinnitus Sound Therapy</value>
   </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>How it works</value>
+  </data>
   <data name="instructions.Text" xml:space="preserve">
     <value>1.  When starting set the volume to Low. </value>
   </data>

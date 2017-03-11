@@ -22,9 +22,16 @@ namespace TinnitusSoundTherapy
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        public static MainPage Current;
         public MainPage()
         {
+           
+
+            
             this.InitializeComponent();
+            PageControl.ItemsSource = pages;
+            Current = this;
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
@@ -32,5 +39,38 @@ namespace TinnitusSoundTherapy
             this.Frame.Navigate(typeof(Relief));
         
     }
+
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            Splitter.IsPaneOpen = !Splitter.IsPaneOpen;
+        }
+
+        /// <summary>
+        /// Called whenever the user changes selection in the scenarios list.  This method will navigate to the respective
+        /// sample scenario page.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PageControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            ListBox scenarioListBox = sender as ListBox;
+            PageListObject s = scenarioListBox.SelectedItem as PageListObject;
+            if (s != null)
+            {
+                this.Frame.Navigate(s.ClassType);
+                if (Window.Current.Bounds.Width < 640)
+                {
+                    Splitter.IsPaneOpen = false;
+                }
+            }
+        }
+
+        private void NotifyUser(string empty, object statusMessage)
+        {
+            throw new NotImplementedException();
+        }
     }
+
+  
 }

@@ -14,12 +14,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <!-- SplitView -->
-        <SplitView x:Name="Splitter" IsPaneOpen="False" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
+        <SplitView x:ConnectionId='1' x:Name="Splitter" IsPaneOpen="False" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
             <!-- Split View Left Pane.-->
             <SplitView.Pane>
                 <!-- Left Side menu.-->
                 <RelativePanel Margin="10,0,0,0">
-                    <TextBlock x:Name="SampleTitle" Text="Menu" TextWrapping="Wrap" Margin="0,10,0,0"/>
+                    <TextBlock x:ConnectionId='6' x:Name="SampleTitle" Text="Menu" TextWrapping="Wrap" Margin="0,10,0,0"/>
 
                 </RelativePanel>
             </SplitView.Pane>
@@ -29,9 +29,9 @@
 
 
                 <!-- Back button to return to main page -->
-                <Button x:Uid="backButtonRelief" Name="backButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="160" Click="Button_Click"/>
+                <Button x:ConnectionId='7' x:Uid="backButtonRelief" Name="backButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="160"                     />
                 <RelativePanel RelativePanel.Below="backButton" HorizontalAlignment="Stretch">
-                    <StackPanel Orientation="Vertical" Name="playButtonsSP" Margin="0,50,0,0" >
+                    <StackPanel x:ConnectionId='8' Orientation="Vertical" Name="playButtonsSP" Margin="0,50,0,0" >
                         <TextBlock x:Uid="instructionsTitle" Text="" HorizontalAlignment="Center" Margin="40,0,0,0"></TextBlock>
 
                         <TextBlock x:Uid="instructions" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,0,0,0"></TextBlock>
@@ -40,12 +40,12 @@
 
                         <StackPanel Orientation="Horizontal" >
                             <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
-                            <Button x:Uid="playButton" Name="playButton" Content=""  Margin="101,200,0,0" VerticalAlignment="Top" Click="button_Play_Click"/>
+                            <Button x:ConnectionId='10' x:Uid="playButton" Name="playButton" Content=""  Margin="101,200,0,0" VerticalAlignment="Top"                          />
                             <!-- A button with a localised versoin of the word 'stop'. To be used to stop playing sound. -->
-                            <Button x:Uid="stopButton" Content="" Margin="101,200,0,0" VerticalAlignment="Top" Click="button_Stop_Click"/>
+                            <Button x:ConnectionId='11' x:Uid="stopButton" Content="" Margin="101,200,0,0" VerticalAlignment="Top"                          />
 
                             <!-- A button with a localised versoin of the word 'pause'. To be used to pause playing sound. -->
-                            <Button x:Uid="pauseButton" Content="" Margin="101,200,0,0" VerticalAlignment="Top" Click="button_Stop_Click"/>
+                            <Button x:ConnectionId='12' x:Uid="pauseButton" Content="" Margin="101,200,0,0" VerticalAlignment="Top"                          />
 
 
 
@@ -57,7 +57,7 @@
 
 
                             <TextBlock x:Uid="panLabel" HorizontalAlignment="Center" Margin="100,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="150"/>
-                            <Slider x:Name="Pan" HorizontalAlignment="Center" Margin="100,0,0,0" VerticalAlignment="Bottom" Width="260"  d:LayoutRounding="Auto" ValueChanged="Pan_ValueChanged" Maximum="1" Minimum="-1" StepFrequency="0.1"/>
+                            <Slider x:ConnectionId='9' x:Name="Pan" HorizontalAlignment="Center" Margin="100,0,0,0" VerticalAlignment="Bottom" Width="260"  d:LayoutRounding="Auto"                                 Maximum="1" Minimum="-1" StepFrequency="0.1"/>
 
                         </StackPanel>
                     </StackPanel>
@@ -67,16 +67,16 @@
 
         </SplitView>
         <!-- Header Stack Panel -->
-        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal">
+        <StackPanel x:ConnectionId='2' x:Name="HeaderPanel" Orientation="Horizontal">
             <Border Background="{ThemeResource SystemControlBackgroundChromeMediumBrush}" Grid.Row="0">
                 <!-- Menu Toggle Button-->
-                <ToggleButton  Click="ToggleButton_Checked" VerticalAlignment="Stretch" Foreground="{ThemeResource ApplicationForegroundThemeBrush}" >
+                <ToggleButton x:ConnectionId='4'                               VerticalAlignment="Stretch" Foreground="{ThemeResource ApplicationForegroundThemeBrush}" >
                     <ToggleButton.Content>
-                        <FontIcon x:Name="Hamburger" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" Margin="0,10,0,0"/>
+                        <FontIcon x:ConnectionId='5' x:Name="Hamburger" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" Margin="0,10,0,0"/>
                     </ToggleButton.Content>
                 </ToggleButton>
             </Border>
-            <TextBlock x:Name="Header" x:Uid="Header" Text=""  Margin="0,15,0,0" />
+            <TextBlock x:ConnectionId='3' x:Name="Header" x:Uid="Header" Text=""  Margin="0,15,0,0" />
         </StackPanel>
 
         
@@ -84,3 +84,4 @@
 
     </Grid>
 </Page>
+
