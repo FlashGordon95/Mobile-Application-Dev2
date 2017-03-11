@@ -12,7 +12,8 @@ namespace TinnitusSoundTherapy
 
         List<PageListObject> pages = new List<PageListObject>
         {
-            new PageListObject() { Title="Sound Therapy", ClassType=typeof(Relief)}
+            new PageListObject() { Title="Sound Therapy", ClassType=typeof(SoundTherapy)},
+            new PageListObject() { Title="What is Tinnitus", ClassType=typeof(WhatIsTinnitus)}
         };
     }
 

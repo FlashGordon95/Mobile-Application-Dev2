@@ -36,6 +36,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="MaxHeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Background" />
@@ -78,6 +79,8 @@
       <RootMethod Name="SetAlignRightWithPanel" />
       <RootMethod Name="GetAlignLeftWithPanel" />
       <RootMethod Name="SetAlignLeftWithPanel" />
+      <RootMethod Name="GetAbove" />
+      <RootMethod Name="SetAbove" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
       <RootProperty Name="SelectionMode" />
@@ -103,6 +106,9 @@
       <RootProperty Name="Height" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="TinnitusSoundTherapy.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="HorizontalAlignment" />
@@ -114,6 +120,13 @@
       <RootProperty Name="StepFrequency" />
       <RootEvent Name="ValueChanged" />
     </RootType>
-    <RootType FullName="TinnitusSoundTherapy.Relief" />
+    <RootType FullName="TinnitusSoundTherapy.SoundTherapy" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="TinnitusSoundTherapy.WhatIsTinnitus" />
   </Roots.RootTypes>
 </Roots>

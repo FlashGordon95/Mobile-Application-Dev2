@@ -174,4 +174,13 @@
     <value>Control Volume</value>
     <comment>A label for the volume control</comment>
   </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>Tinnitus involves the annoying sensation of hearing sound when no external sound is present. Tinnitus symptoms include these types of phantom noises in your ears:</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>The phantom noise may vary in pitch from a low roar to a high squeal, and you may hear it in one or both ears. In some cases, the sound can be so loud it can interfere with your ability to concentrate or hear actual sound. Tinnitus may be present all the time, or it may come and go.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>What is Tinnitus</value>
+  </data>
 </root>

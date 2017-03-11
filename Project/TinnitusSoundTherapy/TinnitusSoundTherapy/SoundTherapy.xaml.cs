@@ -24,14 +24,14 @@ namespace TinnitusSoundTherapy
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Relief : Page
+    public sealed partial class SoundTherapy : Page
     {
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
         TimeSpan thePosition;
         MainPage rootPage;
 
-        public Relief()
+        public SoundTherapy()
         {
             
             this.InitializeComponent();
@@ -149,11 +149,6 @@ namespace TinnitusSoundTherapy
             Debug.WriteLine(audioFile.Position);
 
 
-        }
-
-        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
-        {
-            Splitter.IsPaneOpen = !Splitter.IsPaneOpen;
         }
     }
 

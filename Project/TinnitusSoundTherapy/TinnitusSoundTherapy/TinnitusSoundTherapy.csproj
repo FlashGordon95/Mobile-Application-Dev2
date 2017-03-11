@@ -101,8 +101,11 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Relief.xaml.cs">
-      <DependentUpon>Relief.xaml</DependentUpon>
+    <Compile Include="SoundTherapy.xaml.cs">
+      <DependentUpon>SoundTherapy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhatIsTinnitus.xaml.cs">
+      <DependentUpon>WhatIsTinnitus.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\sound.mp3" />
+    <Content Include="Assets\tinnitusIMG.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -131,7 +135,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Relief.xaml">
+    <Page Include="SoundTherapy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhatIsTinnitus.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

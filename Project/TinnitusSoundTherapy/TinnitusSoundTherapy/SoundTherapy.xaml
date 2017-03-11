@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="TinnitusSoundTherapy.Relief"
+    x:Class="TinnitusSoundTherapy.SoundTherapy"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:TinnitusSoundTherapy"
@@ -8,23 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <!-- Grid Row Definitions-->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <!-- SplitView -->
-        <SplitView x:Name="Splitter" IsPaneOpen="False" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
-            <!-- Split View Left Pane.-->
-            <SplitView.Pane>
-                <!-- Left Side menu.-->
-                <RelativePanel Margin="10,0,0,0">
-                    <TextBlock x:Name="SampleTitle" Text="Menu" TextWrapping="Wrap" Margin="0,10,0,0"/>
-
-                </RelativePanel>
-            </SplitView.Pane>
-
-            <!-- SplitView Right Panel -->
+       
             <RelativePanel Background="{ThemeResource AppBarBackground}" >
 
 
@@ -65,21 +49,6 @@
 
             </RelativePanel>
 
-        </SplitView>
-        <!-- Header Stack Panel -->
-        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal">
-            <Border Background="{ThemeResource SystemControlBackgroundChromeMediumBrush}" Grid.Row="0">
-                <!-- Menu Toggle Button-->
-                <ToggleButton  Click="ToggleButton_Checked" VerticalAlignment="Stretch" Foreground="{ThemeResource ApplicationForegroundThemeBrush}" >
-                    <ToggleButton.Content>
-                        <FontIcon x:Name="Hamburger" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" Margin="0,10,0,0"/>
-                    </ToggleButton.Content>
-                </ToggleButton>
-            </Border>
-            <TextBlock x:Name="Header" x:Uid="Header" Text=""  Margin="0,15,0,0" />
-        </StackPanel>
-
-        
 
 
     </Grid>

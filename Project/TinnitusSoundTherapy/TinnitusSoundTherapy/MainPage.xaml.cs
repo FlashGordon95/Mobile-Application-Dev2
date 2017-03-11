@@ -36,7 +36,7 @@ namespace TinnitusSoundTherapy
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Relief));
+            this.Frame.Navigate(typeof(SoundTherapy));
         
     }
 
@@ -58,7 +58,7 @@ namespace TinnitusSoundTherapy
             PageListObject s = scenarioListBox.SelectedItem as PageListObject;
             if (s != null)
             {
-                this.Frame.Navigate(s.ClassType);
+                PageFrame.Navigate(s.ClassType);
                 if (Window.Current.Bounds.Width < 640)
                 {
                     Splitter.IsPaneOpen = false;
