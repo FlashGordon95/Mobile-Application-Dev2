@@ -12,6 +12,7 @@
             <!-- Back button to return to main page -->
             <Button x:ConnectionId='2' x:Uid="backButtonRelief" Name="backButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="160"                     />
             <RelativePanel RelativePanel.AlignLeftWith="backButton" RelativePanel.Below="backButton">
+
                 <StackPanel Orientation="Horizontal">
                     <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
                     <Button x:ConnectionId='4' x:Uid="playButton" Content=""  Margin="101,200,0,0" VerticalAlignment="Top"                          />
@@ -23,7 +24,6 @@
 
 
                 </StackPanel>
-            
             </RelativePanel>
             <Slider x:ConnectionId='3' x:Name="Volume" MaxWidth="400" Width="400" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"   BorderThickness="150,0,50,0" VerticalAlignment="Bottom" Margin="101,0,60,100" Maximum="1" Minimum="-1" StepFrequency="0.1"/>
 
