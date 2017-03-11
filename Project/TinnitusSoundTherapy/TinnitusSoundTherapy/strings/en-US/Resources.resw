@@ -130,13 +130,13 @@
     <comment>Used to show the user how to enter the mode.</comment>
   </data>
   <data name="instructions.Text" xml:space="preserve">
-    <value>1. When starting set the volume to Low. </value>
+    <value>1.  When starting set the volume to Low. </value>
   </data>
   <data name="instructions2.Text" xml:space="preserve">
-    <value>2. Gradually raise the volume of the sound until it masks the sound you hear.</value>
+    <value>2.  Gradually raise the volume of the sound until it masks the sound you hear.</value>
   </data>
   <data name="instructions3.Text" xml:space="preserve">
-    <value>3. Do not listen on full volume unless needed!</value>
+    <value>3.  Do not listen on full volume unless needed!</value>
   </data>
   <data name="instructionsTitle.Text" xml:space="preserve">
     <value>Instructions :</value>
