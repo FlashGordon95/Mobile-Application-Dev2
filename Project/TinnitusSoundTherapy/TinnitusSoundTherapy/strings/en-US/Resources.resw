@@ -166,10 +166,6 @@
     <value>Play</value>
     <comment>A Button to play sound</comment>
   </data>
-  <data name="stopButton.Content" xml:space="preserve">
-    <value>Stop</value>
-    <comment>A Button to stop playing sound</comment>
-  </data>
   <data name="volumeLabel.Text" xml:space="preserve">
     <value>Control Volume</value>
     <comment>A label for the volume control</comment>
@@ -182,5 +178,13 @@
   </data>
   <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
     <value>What is Tinnitus</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Pause</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Stop</value>
+    <comment>A Button to stop playing sound</comment>
   </data>
 </root>

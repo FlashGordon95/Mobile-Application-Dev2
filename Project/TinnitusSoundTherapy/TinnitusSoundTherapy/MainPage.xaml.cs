@@ -31,6 +31,7 @@ namespace TinnitusSoundTherapy
             
             this.InitializeComponent();
             PageControl.ItemsSource = pages;
+            PageFrame.Navigate(typeof(HomePage));
             Current = this;
         }
 
