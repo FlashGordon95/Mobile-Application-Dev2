@@ -1,0 +1,1 @@
+C:\Users\Damien\Documents\Visual Studio 2015\Projects\UWP GeoLocation\UWP GeoLocation\UWP GeoLocation.csproj;x86
