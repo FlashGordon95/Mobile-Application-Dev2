@@ -8,46 +8,46 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-       
-            <RelativePanel Background="{ThemeResource AppBarBackground}" >
 
+        <RelativePanel Background="{ThemeResource AppBarBackground}" >
 
-                <!-- Back button to return to main page -->
+            <!-- Possible going to remove this button now that I have a sidemenu for navagtion
+                
                 <Button x:Uid="backButtonRelief" Name="backButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Content="" Height="35" Width="160" Click="Button_Click"/>
-                <RelativePanel RelativePanel.Below="backButton" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                -->
+            <TextBlock x:Uid="stHeader" Text="" Name="stHeader" HorizontalAlignment="Center" Margin="40,50,0,0"></TextBlock>
+            <RelativePanel RelativePanel.Below="stHeader"  RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                <!-- Stack panel which will hold a number of inner stack panels-->
                 <StackPanel Orientation="Vertical" Name="playButtonsSP" Margin="0,50,0,0" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
-                        <TextBlock x:Uid="instructionsTitle" Text="" HorizontalAlignment="Center" Margin="40,0,0,0"></TextBlock>
+                    <!-- Present localised instructions to the user-->
+                    <TextBlock x:Uid="instructionsTitle" Text="" HorizontalAlignment="Center" Margin="0,0,0,0"></TextBlock>
 
-                        <TextBlock x:Uid="instructions" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,0,0,0"></TextBlock>
-                        <TextBlock x:Uid="instructions2" Text="" TextWrapping="Wrap"  HorizontalAlignment="Left" Margin="40,40,0,0"></TextBlock>
-                        <TextBlock x:Uid="instructions3" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,20,0,0"></TextBlock>
+                    <TextBlock x:Uid="instructions" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,40,0,0"></TextBlock>
+                    <TextBlock x:Uid="instructions2" Text="" TextWrapping="Wrap"  HorizontalAlignment="Left" Margin="40,20,0,0"></TextBlock>
+                    <TextBlock x:Uid="instructions3" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,20,0,0"></TextBlock>
+                    <!-- Stack panel to hold the playback buttons-->
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0,40,0,0" >
+                        <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
+                        <Button x:Uid="playButton" Name="playButton" Content=""  VerticalAlignment="Top" Click="button_Play_Click"/>
+                        <!-- A button with a localised versoin of the word 'stop'. To be used to stop playing sound. -->
+                        <Button x:Uid="stopButton" Content=""  VerticalAlignment="Top" Click="button_Stop_Click"/>
 
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" >
-                            <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
-                            <Button x:Uid="playButton" Name="playButton" Content=""  VerticalAlignment="Top" Click="button_Play_Click"/>
-                            <!-- A button with a localised versoin of the word 'stop'. To be used to stop playing sound. -->
-                            <Button x:Uid="stopButton" Content=""  VerticalAlignment="Top" Click="button_Stop_Click"/>
-
-                            <!-- A button with a localised versoin of the word 'pause'. To be used to pause playing sound. -->
-                            <Button x:Uid="pauseButton" Content=""  VerticalAlignment="Top" Click="button_Stop_Click"/>
-
-
-
-                        </StackPanel>
-
-                        <!-- Stack Panel for the Pan slider and its text boxes-->
-                        <StackPanel HorizontalAlignment="Stretch" RelativePanel.Below="playButtonsSP">
-                        <TextBlock Text=""  HorizontalAlignment="Center" x:Uid="panSliderTextBox "></TextBlock>
-                        <TextBlock x:Uid="panLabel" HorizontalAlignment="Center" Margin="100,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="150"/>
-                            <Slider x:Name="Pan" HorizontalAlignment="Center" Margin="100,0,0,0" VerticalAlignment="Bottom" Width="260"  d:LayoutRounding="Auto" ValueChanged="Pan_ValueChanged" Maximum="1" Minimum="-1" StepFrequency="0.1"/>
-
-                        </StackPanel>
+                        <!-- A button with a localised versoin of the word 'pause'. To be used to pause playing sound. -->
+                        <Button x:Uid="pauseButton" Content=""  VerticalAlignment="Top" Click="button_Stop_Click"/>
                     </StackPanel>
-                </RelativePanel>
+                    <!-- playback buttons stackPanel-->
 
+                    <!-- Stack Panel for the Pan slider and its text boxes-->
+                    <StackPanel HorizontalAlignment="Stretch" RelativePanel.Below="playButtonsSP">
+                        <!-- Text Block used to describe how the Pan slider works.-->
+                        <TextBlock Text=""  HorizontalAlignment="Center" x:Uid="panSliderTextBox " Margin="0,40,0,0"></TextBlock>
+                        <TextBlock x:Uid="panLabel" HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="150"/>
+                        <!-- Slider on change will attempt to change th Balance of the sound Left to Right.-->
+                        <Slider x:Name="Pan" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="260"  d:LayoutRounding="Auto" ValueChanged="Pan_ValueChanged" Maximum="1" Minimum="-1" StepFrequency="0.1"/>
+                    </StackPanel>
+                    <!-- sliderStackPanel-->
+                </StackPanel>
             </RelativePanel>
-
-
-
+        </RelativePanel>
     </Grid>
 </Page>

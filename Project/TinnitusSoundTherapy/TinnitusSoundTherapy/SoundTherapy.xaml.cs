@@ -29,7 +29,6 @@ namespace TinnitusSoundTherapy
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
         TimeSpan thePosition;
-        MainPage rootPage;
 
         public SoundTherapy()
         {
@@ -54,34 +53,12 @@ namespace TinnitusSoundTherapy
         /// </summary>
         private async void button_Play_Click(object sender, RoutedEventArgs e)
         {
-            
             Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
             Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
             var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
             audioFile.SetSource(stream, file.ContentType);
-          
             
-            audioFile.Play();
-
-
-            
-
-
-            
-        }
-
-        // This is an error handler for the interstitial ad.
-        private void OnErrorOccurred(object sender, AdErrorEventArgs e)
-        {
-           // rootPage.NotifyUser($"An error occurred. {e.ErrorCode}: {e.ErrorMessage}", NotifyType.ErrorMessage);
-        }
-
-        // This is an event handler for the ad control. It's invoked when the ad is refreshed.
-        private void OnAdRefreshed(object sender, RoutedEventArgs e)
-        {
-            // We increment the ad count so that the message changes at every refresh.
-           // adCount++;
-           // rootPage.NotifyUser($"Advertisement #{adCount}", NotifyType.StatusMessage);
+            audioFile.Play(); 
         }
         /// <summary>
         /// A handler for the stop button. When clicked will stop the playing sound.
@@ -147,13 +124,7 @@ namespace TinnitusSoundTherapy
         private void changeSound()
         {
             Debug.WriteLine(audioFile.Position);
-
-
         }
     }
-
-
-
-
         
 }

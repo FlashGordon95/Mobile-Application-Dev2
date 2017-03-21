@@ -183,6 +183,9 @@
     <value>Pause</value>
     <comment>A Button to stop playing sound</comment>
   </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Sound Therapy</value>
+  </data>
   <data name="stopButton.Content" xml:space="preserve">
     <value>Stop</value>
     <comment>A Button to stop playing sound</comment>
