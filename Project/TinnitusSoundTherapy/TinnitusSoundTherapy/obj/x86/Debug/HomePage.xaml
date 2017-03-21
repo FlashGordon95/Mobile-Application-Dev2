@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="TinnitusSoundTherapy.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TinnitusSoundTherapy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+        <TextBlock x:Uid="Header" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,0,0,0"/>
+        <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,50,0,0"/>
+        <!-- Button to change view to the page for therapy -->
+        <Button x:ConnectionId='1' x:Uid="enterSessionButton" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="300"                      Margin="0,100,0,0"/>
+        <!-- Text blocks used to describe the app - text gathered from the resources file -->
+        <TextBlock x:Uid="howItWorks" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="24" Margin="0,20,0,0"/>
+        <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="18" Margin="0,50,0,0"/>
+
+
+        <Button x:Uid="aboutPage" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="" Margin="0,0,0,50" Width="300" />
+        </StackPanel>
+    </Grid>
+</Page>
+
