@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
@@ -26,20 +27,21 @@ namespace TinnitusSoundTherapy
         public static MainPage Current;
         public MainPage()
         {
-           
-
-            
             this.InitializeComponent();
             PageControl.ItemsSource = pages;
-            PageFrame.Navigate(typeof(HomePage));
+            PageFrame.Navigate(typeof(HomePage)); //Initialise our view frame with the homepage.
             Current = this;
+            
+
+
         }
+        
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(SoundTherapy));
         
-    }
+        }
 
         private void ToggleButton_Checked(object sender, RoutedEventArgs e)
         {

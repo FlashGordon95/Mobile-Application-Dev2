@@ -33,7 +33,7 @@
                         <Button x:Uid="stopButton" Content=""  VerticalAlignment="Top" Click="button_Stop_Click"/>
 
                         <!-- A button with a localised versoin of the word 'pause'. To be used to pause playing sound. -->
-                        <Button x:Uid="pauseButton" Content=""  VerticalAlignment="Top" Click="button_Stop_Click"/>
+                        <Button x:Uid="pauseButton" Content=""  VerticalAlignment="Top" Click="button_Pause_Click"/>
                     </StackPanel>
                     <!-- playback buttons stackPanel-->
 

@@ -53,12 +53,23 @@ namespace TinnitusSoundTherapy
         /// </summary>
         private async void button_Play_Click(object sender, RoutedEventArgs e)
         {
-            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
-            Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
-            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
-            audioFile.SetSource(stream, file.ContentType);
-            
-            audioFile.Play(); 
+
+            switch (audioFile.CurrentState)
+            {
+                case MediaElementState.Paused:
+                    audioFile.Play();
+                    break;
+                default:
+
+
+                    Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+                    Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
+                    var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+                    audioFile.SetSource(stream, file.ContentType);
+
+                    audioFile.Play();
+                    break;
+            }
         }
         /// <summary>
         /// A handler for the stop button. When clicked will stop the playing sound.
@@ -68,6 +79,18 @@ namespace TinnitusSoundTherapy
         {
             audioFile.Stop();
         }
+
+        /// <summary>
+        /// A handler for the pause button. When clicked will pause the sound and retain the position
+        /// Using MediaElement to handle the audio itself.
+        /// </summary>
+        private void button_Pause_Click(object sender, RoutedEventArgs e)
+        {
+
+            audioFile.Pause();
+
+        }
+
         /// <summary>
         /// A handler for the pan slider. 
         /// When the Pan slider is changed we will want to change the sound in accordance to this.
@@ -125,6 +148,8 @@ namespace TinnitusSoundTherapy
         {
             Debug.WriteLine(audioFile.Position);
         }
+
+       
     }
         
 }
