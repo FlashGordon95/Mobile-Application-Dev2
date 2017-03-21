@@ -18,7 +18,7 @@
             <!-- Split View Left Pane.-->
             <SplitView.Pane>
                 <!-- Left Side menu.-->
-                <RelativePanel Margin="0,0,0,0" Background="Blue" RequestedTheme="Dark">
+                <RelativePanel Margin="0,0,0,0" Background="{ThemeResource InkToolbarAccentColorThemeBrush}" RequestedTheme="Dark">
                     <TextBlock x:Name="SampleTitle" Text="Menu" TextWrapping="Wrap" Margin="0,10,0,0"/>
 
                     <ListBox x:Name="PageControl" SelectionChanged="PageControl_SelectionChanged"
@@ -46,7 +46,7 @@
         </SplitView>
 
         <!-- Header Stack Panel -->
-        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" RequestedTheme="Dark" Background="Blue">
+        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Background="{ThemeResource InkToolbarAccentColorThemeBrush}">
             <Border Background="{ThemeResource SystemControlBackgroundChromeMediumBrush}" Grid.Row="0">
                 <!-- Menu Toggle Button-->
                 <ToggleButton  Click="ToggleButton_Checked" VerticalAlignment="Stretch" Foreground="{ThemeResource ApplicationForegroundThemeBrush}"  >

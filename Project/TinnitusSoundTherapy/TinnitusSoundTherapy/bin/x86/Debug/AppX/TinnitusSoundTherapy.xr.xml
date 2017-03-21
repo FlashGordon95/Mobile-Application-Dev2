@@ -23,7 +23,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
-      <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Background" />
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
