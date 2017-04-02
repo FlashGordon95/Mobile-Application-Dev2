@@ -190,4 +190,7 @@
     <value>Stop</value>
     <comment>A Button to stop playing sound</comment>
   </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>You have a number of beats available to select from. If playing a sound when the button is pressed , will stop whatever else is playing.</value>
+  </data>
 </root>

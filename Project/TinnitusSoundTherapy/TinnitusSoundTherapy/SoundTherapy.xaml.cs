@@ -8,6 +8,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Media;
+using Windows.Storage;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -22,20 +23,49 @@ using Windows.UI.Xaml.Navigation;
 namespace TinnitusSoundTherapy
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// A page used to play the sounds. 
+    /// Will contain:
+    /// A play / pause / stop button that will modify the audio stream
+    /// A pan slider to pan sound to either ear
+    /// Volume will be handled by system volume with a limiter on max volume.
     /// </summary>
     public sealed partial class SoundTherapy : Page
     {
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
         TimeSpan thePosition;
+        double value;
 
         public SoundTherapy()
-        {
-            
+        { 
             this.InitializeComponent();
 
             DataContext = this;
+
+            try
+            {
+                // retrieve the pan from a previous session
+                // 1. get a link to the localsettings container for this app
+                ApplicationDataContainer localSettings =
+                            ApplicationData.Current.LocalSettings;
+
+                // 2. check for the key value stored under the name
+                //    "selectedPan"
+                audioFile.Balance = (double) localSettings.Values["selectedPan"];
+                Pan.Value = audioFile.Balance;
+               
+                // 3.  if it is there, then set the SelectedIndex of the pivot page
+                //     using the value
+                //audioFile.Balance = value;
+                Debug.WriteLine("After loading storage , balance is " + audioFile.Balance);
+            }
+            catch (Exception exc)
+            {
+                //We encountered a problem loading the values 
+                string localMsg = exc.Message;
+                Debug.WriteLine(localMsg);
+            }
+
         }
 
 
@@ -53,7 +83,6 @@ namespace TinnitusSoundTherapy
         /// </summary>
         private async void button_Play_Click(object sender, RoutedEventArgs e)
         {
-
             switch (audioFile.CurrentState)
             {
                 case MediaElementState.Paused:
@@ -61,16 +90,29 @@ namespace TinnitusSoundTherapy
                     break;
                 default:
 
-
+                    /// <summary>
+                    /// An Example of local storage. For this we load in an audio file from the system asynchronously
+                    /// Then prepare a stream of the data, setting this as the source for our audio file
+                    /// Then we play
+                    /// 
+                    /// POSSIBLE ENCHANCEMENT: Have a button bar with 3-5 different sounds user can select
+                    /// On select , stop any playing audio , load in desired track and start playing again
+                    /// </summary>
                     Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
                     Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
                     var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
                     audioFile.SetSource(stream, file.ContentType);
 
-                    audioFile.Play();
+                    playSound();
                     break;
             }
         }
+
+        private void playSound()
+        {
+            audioFile.Play();
+        }
+
         /// <summary>
         /// A handler for the stop button. When clicked will stop the playing sound.
         /// Using MediaElement to handle the audio itself.
@@ -86,9 +128,7 @@ namespace TinnitusSoundTherapy
         /// </summary>
         private void button_Pause_Click(object sender, RoutedEventArgs e)
         {
-
             audioFile.Pause();
-
         }
 
         /// <summary>
@@ -117,18 +157,22 @@ namespace TinnitusSoundTherapy
                     case MediaElementState.Buffering:
                         break;
                     case MediaElementState.Playing:
-                        audioFile.Pause();
-                        Debug.WriteLine("Media currently plating. Time:" + audioFile.Position);
                         thePosition = audioFile.Position; //get old position for audio
-                        audioFile.Balance = Pan.Value; //pan the media element 
-                        audioFile.Position = thePosition; //restore the position of the track
-                        //we now load up the track again
-                        Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
-                        Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
-                        var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
-                        audioFile.SetSource(stream, file.ContentType);
 
+                        audioFile.Stop();
+                        audioFile = new MediaElement();
+                        //we now load up the track again
+
+                        Debug.WriteLine("Media currently plating. Time:" + audioFile.Position);
+                        
                         audioFile.Position = thePosition; //restore the position of the track
+
+                        audioFile.Balance = Pan.Value; //pan the media element 
+                        audioFile.Volume = .1;
+
+                        audioFile.Play();
+
+                        
                         break;
                     case MediaElementState.Paused:
                         audioFile.Balance = Pan.Value;
@@ -142,6 +186,15 @@ namespace TinnitusSoundTherapy
                         break;
                 }
             }
+            // 1. get the link to the settings container
+            ApplicationDataContainer localSettings =
+                        ApplicationData.Current.LocalSettings;
+            // 2. just write the value. This overwrites the value, but in this
+            //    case, that is not a problem.  If it is, then you may want to check 
+            //    whether the value exists or not.
+            localSettings.Values["selectedPan"] = audioFile.Balance;
+            Debug.WriteLine("Wrote this balance to local storage " + localSettings.Values["selectedPan"]);
+
         }
 
         private void changeSound()
@@ -149,7 +202,21 @@ namespace TinnitusSoundTherapy
             Debug.WriteLine(audioFile.Position);
         }
 
-       
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            audioFile.Stop();
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+            Random rnd = new Random();
+            int beatNo = rnd.Next(1, 3);
+            // Prepare the url within the assets folder for the sound
+            //  string selectedBeat = "sound" + beatNo + ".mp3";
+            //    Windows.Storage.StorageFile file = await folder.GetFileAsync(selectedBeat);
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
+            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+            audioFile.SetSource(stream, file.ContentType);
+
+            playSound();
+        }
     }
         
 }

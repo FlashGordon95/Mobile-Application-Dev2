@@ -156,21 +156,33 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "TinnitusSoundTherapy.HomePage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "TinnitusSoundTherapy.MainPage";
-            _typeNameTable[4] = "TinnitusSoundTherapy.SoundTherapy";
-            _typeNameTable[5] = "TinnitusSoundTherapy.WhatIsTinnitus";
+            _typeNameTable[4] = "Microsoft.Advertising.WinRT.UI.AdControl";
+            _typeNameTable[5] = "Windows.UI.Xaml.Controls.StackPanel";
+            _typeNameTable[6] = "Windows.UI.Xaml.Controls.Panel";
+            _typeNameTable[7] = "String";
+            _typeNameTable[8] = "Boolean";
+            _typeNameTable[9] = "Int32";
+            _typeNameTable[10] = "TinnitusSoundTherapy.SoundTherapy";
+            _typeNameTable[11] = "TinnitusSoundTherapy.WhatIsTinnitus";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::TinnitusSoundTherapy.HomePage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::TinnitusSoundTherapy.MainPage);
-            _typeTable[4] = typeof(global::TinnitusSoundTherapy.SoundTherapy);
-            _typeTable[5] = typeof(global::TinnitusSoundTherapy.WhatIsTinnitus);
+            _typeTable[4] = typeof(global::Microsoft.Advertising.WinRT.UI.AdControl);
+            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.StackPanel);
+            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Panel);
+            _typeTable[7] = typeof(global::System.String);
+            _typeTable[8] = typeof(global::System.Boolean);
+            _typeTable[9] = typeof(global::System.Int32);
+            _typeTable[10] = typeof(global::TinnitusSoundTherapy.SoundTherapy);
+            _typeTable[11] = typeof(global::TinnitusSoundTherapy.WhatIsTinnitus);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -207,8 +219,9 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
 
         private object Activate_0_HomePage() { return new global::TinnitusSoundTherapy.HomePage(); }
         private object Activate_3_MainPage() { return new global::TinnitusSoundTherapy.MainPage(); }
-        private object Activate_4_SoundTherapy() { return new global::TinnitusSoundTherapy.SoundTherapy(); }
-        private object Activate_5_WhatIsTinnitus() { return new global::TinnitusSoundTherapy.WhatIsTinnitus(); }
+        private object Activate_4_AdControl() { return new global::Microsoft.Advertising.WinRT.UI.AdControl(); }
+        private object Activate_10_SoundTherapy() { return new global::TinnitusSoundTherapy.SoundTherapy(); }
+        private object Activate_11_WhatIsTinnitus() { return new global::TinnitusSoundTherapy.WhatIsTinnitus(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -242,16 +255,52 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  TinnitusSoundTherapy.SoundTherapy
+            case 4:   //  Microsoft.Advertising.WinRT.UI.AdControl
+                userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.StackPanel"));
+                userType.Activator = Activate_4_AdControl;
+                userType.AddMemberName("ApplicationId");
+                userType.AddMemberName("AdUnitId");
+                userType.AddMemberName("HasAd");
+                userType.AddMemberName("IsSuspended");
+                userType.AddMemberName("PostalCode");
+                userType.AddMemberName("CountryOrRegion");
+                userType.AddMemberName("Keywords");
+                userType.AddMemberName("AutoRefreshIntervalInSeconds");
+                userType.AddMemberName("IsAutoRefreshEnabled");
+                userType.AddMemberName("IsEngaged");
+                xamlType = userType;
+                break;
+
+            case 5:   //  Windows.UI.Xaml.Controls.StackPanel
+                xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  Windows.UI.Xaml.Controls.Panel
+                xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  String
+                xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  Boolean
+                xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  Int32
+                xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  TinnitusSoundTherapy.SoundTherapy
                 userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_SoundTherapy;
+                userType.Activator = Activate_10_SoundTherapy;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  TinnitusSoundTherapy.WhatIsTinnitus
+            case 11:   //  TinnitusSoundTherapy.WhatIsTinnitus
                 userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_WhatIsTinnitus;
+                userType.Activator = Activate_11_WhatIsTinnitus;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -314,11 +363,160 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
             return foundXamlType;
         }
 
+        private object get_0_AdControl_ApplicationId(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.ApplicationId;
+        }
+        private void set_0_AdControl_ApplicationId(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.ApplicationId = (global::System.String)Value;
+        }
+        private object get_1_AdControl_AdUnitId(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.AdUnitId;
+        }
+        private void set_1_AdControl_AdUnitId(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.AdUnitId = (global::System.String)Value;
+        }
+        private object get_2_AdControl_HasAd(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.HasAd;
+        }
+        private object get_3_AdControl_IsSuspended(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.IsSuspended;
+        }
+        private object get_4_AdControl_PostalCode(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.PostalCode;
+        }
+        private void set_4_AdControl_PostalCode(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.PostalCode = (global::System.String)Value;
+        }
+        private object get_5_AdControl_CountryOrRegion(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.CountryOrRegion;
+        }
+        private void set_5_AdControl_CountryOrRegion(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.CountryOrRegion = (global::System.String)Value;
+        }
+        private object get_6_AdControl_Keywords(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.Keywords;
+        }
+        private void set_6_AdControl_Keywords(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.Keywords = (global::System.String)Value;
+        }
+        private object get_7_AdControl_AutoRefreshIntervalInSeconds(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.AutoRefreshIntervalInSeconds;
+        }
+        private void set_7_AdControl_AutoRefreshIntervalInSeconds(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.AutoRefreshIntervalInSeconds = (global::System.Int32)Value;
+        }
+        private object get_8_AdControl_IsAutoRefreshEnabled(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.IsAutoRefreshEnabled;
+        }
+        private void set_8_AdControl_IsAutoRefreshEnabled(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.IsAutoRefreshEnabled = (global::System.Boolean)Value;
+        }
+        private object get_9_AdControl_IsEngaged(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.IsEngaged;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "Microsoft.Advertising.WinRT.UI.AdControl.ApplicationId":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "ApplicationId", "String");
+                xamlMember.Getter = get_0_AdControl_ApplicationId;
+                xamlMember.Setter = set_0_AdControl_ApplicationId;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.AdUnitId":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "AdUnitId", "String");
+                xamlMember.Getter = get_1_AdControl_AdUnitId;
+                xamlMember.Setter = set_1_AdControl_AdUnitId;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.HasAd":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "HasAd", "Boolean");
+                xamlMember.Getter = get_2_AdControl_HasAd;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.IsSuspended":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "IsSuspended", "Boolean");
+                xamlMember.Getter = get_3_AdControl_IsSuspended;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.PostalCode":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "PostalCode", "String");
+                xamlMember.Getter = get_4_AdControl_PostalCode;
+                xamlMember.Setter = set_4_AdControl_PostalCode;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.CountryOrRegion":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "CountryOrRegion", "String");
+                xamlMember.Getter = get_5_AdControl_CountryOrRegion;
+                xamlMember.Setter = set_5_AdControl_CountryOrRegion;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.Keywords":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "Keywords", "String");
+                xamlMember.Getter = get_6_AdControl_Keywords;
+                xamlMember.Setter = set_6_AdControl_Keywords;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.AutoRefreshIntervalInSeconds":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "AutoRefreshIntervalInSeconds", "Int32");
+                xamlMember.Getter = get_7_AdControl_AutoRefreshIntervalInSeconds;
+                xamlMember.Setter = set_7_AdControl_AutoRefreshIntervalInSeconds;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.IsAutoRefreshEnabled":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "IsAutoRefreshEnabled", "Boolean");
+                xamlMember.Getter = get_8_AdControl_IsAutoRefreshEnabled;
+                xamlMember.Setter = set_8_AdControl_IsAutoRefreshEnabled;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.IsEngaged":
+                userType = (global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlMember(this, "IsEngaged", "Boolean");
+                xamlMember.Getter = get_9_AdControl_IsEngaged;
+                xamlMember.SetIsReadOnly();
+                break;
+            }
             return xamlMember;
         }
     }
