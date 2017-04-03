@@ -36,7 +36,7 @@ namespace TinnitusSoundTherapy
         MediaElement audioFile = new MediaElement();
         TimeSpan thePosition;
 
-        // 1. get the link to the settings container
+        //  get the link to the settings container
         ApplicationDataContainer localSettings =
                     ApplicationData.Current.LocalSettings;
 
@@ -51,9 +51,7 @@ namespace TinnitusSoundTherapy
             try
             {
                 // retrieve the pan from a previous session
-                // 1. get a link to the localsettings container for this app
-                ApplicationDataContainer localSettings =
-                            ApplicationData.Current.LocalSettings;
+                
 
                 // 2. check for the key value stored under the name
                 //    "selectedPan"
@@ -111,8 +109,6 @@ namespace TinnitusSoundTherapy
                     /// Then prepare a stream of the data, setting this as the source for our audio file
                     /// Then we play
                     /// 
-                    /// POSSIBLE ENCHANCEMENT: Have a button bar with 3-5 different sounds user can select
-                    /// On select , stop any playing audio , load in desired track and start playing again
                     /// </summary>
                     /// 
                     if (localSettings.Values["selectedBeat"] == null)
@@ -141,7 +137,7 @@ namespace TinnitusSoundTherapy
                     break;
             }
         }
-
+        //Just a wrapper around the play function. Not really needed. 
         private void playSound()
         {
             audioFile.Play();
@@ -186,10 +182,6 @@ namespace TinnitusSoundTherapy
                         audioFile.Volume = .1;
                         Debug.WriteLine("Pan value is now" + audioFile.Balance);
                         break;
-                    case MediaElementState.Opening:
-                        break;
-                    case MediaElementState.Buffering:
-                        break;
                     case MediaElementState.Playing:
                         thePosition = audioFile.Position; //get old position for audio
 
@@ -231,11 +223,6 @@ namespace TinnitusSoundTherapy
             localSettings.Values["selectedPan"] = audioFile.Balance;
             Debug.WriteLine("Wrote this balance to local storage " + localSettings.Values["selectedPan"]);
 
-        }
-
-        private void changeSound()
-        {
-            Debug.WriteLine(audioFile.Position);
         }
 
         private async void changeBeat(object sender, RoutedEventArgs e)

@@ -27,11 +27,20 @@ namespace TinnitusSoundTherapy
             this.InitializeComponent();
         }
 
-
-        private void button_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Navagates the current frame to a new page called SoundTherapy
+        /// </summary>
+        private void loadPageTherapy(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(SoundTherapy));
 
+        }
+        /// <summary>
+        /// Navagates the current frame to a new page called WhatisTinnitus
+        /// </summary>
+        private void loadPageAbout(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(WhatIsTinnitus));
         }
     }
 

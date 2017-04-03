@@ -21,4 +21,158 @@
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.de.xlf</FileName>
+    <Checksum>2251145822813822958118812211223312960242130</Checksum>
+    <ModifiedTime>2017-04-03T22:31:09.6007988+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.en.xlf</FileName>
+    <Checksum>1497724717412219317120798799312211701681</Checksum>
+    <ModifiedTime>2017-04-03T22:30:43.6438587+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.es.xlf</FileName>
+    <Checksum>179147210118021614416672124791682392318860</Checksum>
+    <ModifiedTime>2017-04-03T22:31:08.1042392+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.fr.xlf</FileName>
+    <Checksum>205109147491741961085423713114410142272141</Checksum>
+    <ModifiedTime>2017-04-03T22:31:06.8079213+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.ga.xlf</FileName>
+    <Checksum>251101401401081271282511637110514521013413254</Checksum>
+    <ModifiedTime>2017-04-03T22:31:02.1446072+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.it.xlf</FileName>
+    <Checksum>1052141386131412812315762021981215558199</Checksum>
+    <ModifiedTime>2017-04-03T22:31:10.8804854+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.ja.xlf</FileName>
+    <Checksum>853699177803420921134222192107112120233183</Checksum>
+    <ModifiedTime>2017-04-03T22:31:10.6291749+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.pt.xlf</FileName>
+    <Checksum>2386113423014281111492221621657118114204</Checksum>
+    <ModifiedTime>2017-04-03T22:31:10.426561+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.ru.xlf</FileName>
+    <Checksum>1656924122824396691261261271931817418013223</Checksum>
+    <ModifiedTime>2017-04-03T22:31:09.8854734+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.sv.xlf</FileName>
+    <Checksum>1372072388623011715342218541995812223122832</Checksum>
+    <ModifiedTime>2017-04-03T22:31:08.79976+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.tr.xlf</FileName>
+    <Checksum>190162590189181136131240224142104192233174173</Checksum>
+    <ModifiedTime>2017-04-03T22:31:08.5962977+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\de\Resources.resw</FileName>
+    <Checksum>187175931645085229162233833247193186142153</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.2796849+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\en\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2017-04-03T22:30:45.1338597+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\es\Resources.resw</FileName>
+    <Checksum>6111816972210616801961721661777418215239</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.2976846+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\fr\Resources.resw</FileName>
+    <Checksum>17815412917615216525224537721020113115121143</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.3126979+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\ga\Resources.resw</FileName>
+    <Checksum>219920639132391381962132367019811815931243</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.3276972+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\it\Resources.resw</FileName>
+    <Checksum>1611451442201388025229121924658181186184131</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.340685+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\ja\Resources.resw</FileName>
+    <Checksum>15910996828267222352003510714414129173</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.3547069+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\pt\Resources.resw</FileName>
+    <Checksum>2472020231941602531061722342501625322187215</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.3696835+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\ru\Resources.resw</FileName>
+    <Checksum>851944885253232513718022133120208140109148</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.3876991+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\sv\Resources.resw</FileName>
+    <Checksum>2017791104114113205601266452868615592234</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.4016824+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\tr\Resources.resw</FileName>
+    <Checksum>69249979015134107244213721839317522084215</Checksum>
+    <ModifiedTime>2017-04-03T22:32:31.4136848+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
 </ArrayOfCacheFile>

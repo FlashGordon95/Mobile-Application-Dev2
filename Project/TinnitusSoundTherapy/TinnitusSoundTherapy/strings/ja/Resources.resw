@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>耳鳴りについての詳細を学ぶ</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>メイン ページに戻る</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>セッションを開始します。</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>耳鳴りの音療法</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>操作の流れ</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. 低ボリュームを設定開始。</value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. それはあなたが聞こえる音、マスクまで徐々 に音の音量を上げます。</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. 必要のない限りは、フル ・ ボリュームをリッスンしない!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>指示:</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>音療法で耳鳴りの影響を軽減または緩和します。</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>バイノーラルの音の周波数を再生することにより我々 は効果的に耳鳴りをマスクし、それを調整する私たちの脳の時間を許可します。</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>パン L - R を制御します。</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>再生する前に必要な残高にオーディオをパンする必要があります!</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>再生</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>コントロール ・ ボリューム</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>耳鳴りは、外部の音が存在しない、迷惑な音の聴感を伴います。耳鳴りの症状は、あなたの耳で幻騒音のこれらの種類を含みます。</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>ファントムのノイズが高鳴きを低轟音からピッチの異なる場合があります、1 つまたは両方の耳でそれを聞くことがあります。いくつかのケースで音は大声でそれは集中する実際の音を聞いてあなたの能力を妨げることがでくことができます。耳鳴りには、すべての時間、またはそれが来るかもしれないし、行く可能性があります。</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>何が耳鳴り</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>一時停止</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>サウンドセラピー</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>停止</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>ビートからを選択する利用可能な数があります。何が再生ボタンが押されたときに音を再生中の場合は停止します。</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>ビート 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>ビート 2</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>ビート 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>新しい機能のアイデアを持っていますか。</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>追加新しいビートを見てみたいと思いますか。</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>何かが動作しないそれのような?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>アプリでの経験をいくつかのフィードバックを送信し、我々 は支援する最善を尽くします!私たち良いことができる何かを知っている!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>フィードバック/お問い合わせ</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>フィードバック</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>ホームページ</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>サウンドセラピー</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>何が耳鳴り</value>
+  </data>
+</root>

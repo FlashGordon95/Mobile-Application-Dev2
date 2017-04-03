@@ -22,10 +22,8 @@
                 <!-- Area where user can enter their feedback-->
                 <TextBox x:Name="feedbackComment" HorizontalAlignment="Stretch" Margin="20,10" Height="100" Background="AntiqueWhite"></TextBox>
                 <!-- Button which opens a mail view with a pre populated message.-->
-                <Button x:Uid="submitButtonFeedback" Margin="30,10" Width="70" Height="40" Content="Submit" Click="Button_Click" >
+                <Button x:Uid="submitButtonFeedback" Margin="30,10" Width="140" Height="40" Content="Submit" Click="Button_Click" >
                 </Button>
-
-
             </StackPanel>
         </RelativePanel>
 

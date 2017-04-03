@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ja" original="TINNITUSSOUNDTHERAPY/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="TINNITUSSOUNDTHERAPY/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="aboutPage.Content" translate="yes" xml:space="preserve">
+          <source>Learn more about tinnitus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">耳鳴りについての詳細を学ぶ</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Another button which will be used for a new page</note>
+        </trans-unit>
+        <trans-unit id="backButtonRelief.Content" translate="yes" xml:space="preserve">
+          <source>Back to main page</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">メイン ページに戻る</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used on the Relief page to go back to main page</note>
+        </trans-unit>
+        <trans-unit id="enterSessionButton.Content" translate="yes" xml:space="preserve">
+          <source>Start a session</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">セッションを開始します。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to show the user how to enter the mode.</note>
+        </trans-unit>
+        <trans-unit id="Header.Text" translate="yes" xml:space="preserve">
+          <source>Tinnitus Sound Therapy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">耳鳴りの音療法</target>
+        </trans-unit>
+        <trans-unit id="howItWorks.Text" translate="yes" xml:space="preserve">
+          <source>How it works</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">操作の流れ</target>
+        </trans-unit>
+        <trans-unit id="instructions.Text" translate="yes" xml:space="preserve">
+          <source>1.  When starting set the volume to Low. </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1. 低ボリュームを設定開始。</target>
+        </trans-unit>
+        <trans-unit id="instructions2.Text" translate="yes" xml:space="preserve">
+          <source>2.  Gradually raise the volume of the sound until it masks the sound you hear.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2. それはあなたが聞こえる音、マスクまで徐々 に音の音量を上げます。</target>
+        </trans-unit>
+        <trans-unit id="instructions3.Text" translate="yes" xml:space="preserve">
+          <source>3.  Do not listen on full volume unless needed!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3. 必要のない限りは、フル ・ ボリュームをリッスンしない!</target>
+        </trans-unit>
+        <trans-unit id="instructionsTitle.Text" translate="yes" xml:space="preserve">
+          <source>Instructions :</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">指示:</target>
+        </trans-unit>
+        <trans-unit id="mainPageDescription.Text" translate="yes" xml:space="preserve">
+          <source>Alleviate or lessen the effects of tinnitus via sound therapy.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">音療法で耳鳴りの影響を軽減または緩和します。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">What the app does</note>
+        </trans-unit>
+        <trans-unit id="mainPageSubdescription.Text" translate="yes" xml:space="preserve">
+          <source>By playing Binaural sound frequencies we effectively mask the tinnitus and allow our brain time to tune it out.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">バイノーラルの音の周波数を再生することにより我々 は効果的に耳鳴りをマスクし、それを調整する私たちの脳の時間を許可します。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A sub description giving deeper explanation into how it works</note>
+        </trans-unit>
+        <trans-unit id="panLabel.Text" translate="yes" xml:space="preserve">
+          <source>Control Pan L - R</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">パン L - R を制御します。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A label for the pan control</note>
+        </trans-unit>
+        <trans-unit id="panSliderTextBox.Text" translate="yes" xml:space="preserve">
+          <source>You will need to Pan the audio to your desired Balance before playing!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">再生する前に必要な残高にオーディオをパンする必要があります!</target>
+        </trans-unit>
+        <trans-unit id="playButton.Content" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">再生</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A Button to play sound</note>
+        </trans-unit>
+        <trans-unit id="volumeLabel.Text" translate="yes" xml:space="preserve">
+          <source>Control Volume</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">コントロール ・ ボリューム</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A label for the volume control</note>
+        </trans-unit>
+        <trans-unit id="whatIsTinnitusExplanation1.Text" translate="yes" xml:space="preserve">
+          <source>Tinnitus involves the annoying sensation of hearing sound when no external sound is present. Tinnitus symptoms include these types of phantom noises in your ears:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">耳鳴りは、外部の音が存在しない、迷惑な音の聴感を伴います。耳鳴りの症状は、あなたの耳で幻騒音のこれらの種類を含みます。</target>
+        </trans-unit>
+        <trans-unit id="whatIsTinnitusExplanation2.Text" translate="yes" xml:space="preserve">
+          <source>The phantom noise may vary in pitch from a low roar to a high squeal, and you may hear it in one or both ears. In some cases, the sound can be so loud it can interfere with your ability to concentrate or hear actual sound. Tinnitus may be present all the time, or it may come and go.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ファントムのノイズが高鳴きを低轟音からピッチの異なる場合があります、1 つまたは両方の耳でそれを聞くことがあります。いくつかのケースで音は大声でそれは集中する実際の音を聞いてあなたの能力を妨げることがでくことができます。耳鳴りには、すべての時間、またはそれが来るかもしれないし、行く可能性があります。</target>
+        </trans-unit>
+        <trans-unit id="whatIsTinnitusLabel.Text" translate="yes" xml:space="preserve">
+          <source>What is Tinnitus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">何が耳鳴り</target>
+        </trans-unit>
+        <trans-unit id="pauseButton.Content" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">一時停止</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A Button to stop playing sound</note>
+        </trans-unit>
+        <trans-unit id="stHeader.Text" translate="yes" xml:space="preserve">
+          <source>Sound Therapy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">サウンドセラピー</target>
+        </trans-unit>
+        <trans-unit id="stopButton.Content" translate="yes" xml:space="preserve">
+          <source>Stop</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">停止</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A Button to stop playing sound</note>
+        </trans-unit>
+        <trans-unit id="instructions4.Text" translate="yes" xml:space="preserve">
+          <source>You have a number of beats available to select from. If playing a sound when the button is pressed , will stop whatever else is playing.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ビートからを選択する利用可能な数があります。何が再生ボタンが押されたときに音を再生中の場合は停止します。</target>
+        </trans-unit>
+        <trans-unit id="changeSound1.Content" translate="yes" xml:space="preserve">
+          <source>Beat 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ビート 1</target>
+        </trans-unit>
+        <trans-unit id="changeSound2.Content" translate="yes" xml:space="preserve">
+          <source>Beat 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ビート 2</target>
+        </trans-unit>
+        <trans-unit id="changeSound3.Content" translate="yes" xml:space="preserve">
+          <source>Beat 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ビート 3</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc1.Text" translate="yes" xml:space="preserve">
+          <source>Do you have an idea for a new feature?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">新しい機能のアイデアを持っていますか。</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc2.Text" translate="yes" xml:space="preserve">
+          <source>Would you like to see new beats added?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">追加新しいビートを見てみたいと思いますか。</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc3.Text" translate="yes" xml:space="preserve">
+          <source>Does something not work like it should?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">何かが動作しないそれのような?</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc4.Text" translate="yes" xml:space="preserve">
+          <source>Submit some feedback on your experience with the app and we will do our best to help! If something can be better let us know!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">アプリでの経験をいくつかのフィードバックを送信し、我々 は支援する最善を尽くします!私たち良いことができる何かを知っている!</target>
+        </trans-unit>
+        <trans-unit id="feedbackTitle.Text" translate="yes" xml:space="preserve">
+          <source>Feedback / Contact Us</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">フィードバック/お問い合わせ</target>
+        </trans-unit>
+        <trans-unit id="submitButtonFeedback.Content" translate="yes" xml:space="preserve">
+          <source>Submit </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">送信</target>
+        </trans-unit>
+        <trans-unit id="feedbackPage-sidemenu" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">フィードバック</target>
+        </trans-unit>
+        <trans-unit id="homePageTitle-sidemenu" translate="yes" xml:space="preserve">
+          <source>Homepage</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ホームページ</target>
+        </trans-unit>
+        <trans-unit id="soundTherapy-sidemenu" translate="yes" xml:space="preserve">
+          <source>Sound Therapy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">サウンドセラピー</target>
+        </trans-unit>
+        <trans-unit id="whatisTin-sidemenu" translate="yes" xml:space="preserve">
+          <source>What is Tinnitus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">何が耳鳴り</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

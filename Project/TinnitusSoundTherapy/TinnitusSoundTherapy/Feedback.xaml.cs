@@ -43,10 +43,10 @@ namespace TinnitusSoundTherapy
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             EmailMessage email = new EmailMessage(); 
-            email.To.Add(new EmailRecipient("ryangordon.dev@gmail.com"));
-            email.Subject = "Feedback for Tinnitus Sound Therapy ";
-            email.Body = feedbackComment.Text;
-            await EmailManager.ShowComposeNewEmailAsync(email);
+            email.To.Add(new EmailRecipient("ryangordon.dev@gmail.com")); //Setup the email recipient
+            email.Subject = "Feedback for Tinnitus Sound Therapy "; // Set the subject
+            email.Body = feedbackComment.Text; // Set the body of the email with the text user provided in textbox
+            await EmailManager.ShowComposeNewEmailAsync(email); //Send the email async
         }
     }
 }

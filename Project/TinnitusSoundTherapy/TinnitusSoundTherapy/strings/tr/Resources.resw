@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>Kulak çınlaması hakkında daha fazla bilgi</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Ana sayfaya dön</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>Oturum başlatma</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Kulak çınlaması ses terapisi</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>Nasıl çalışır?</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. ne zaman başlangıç ses düzeyini Düşük olarak ayarlamak. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. yavaş yavaş duyduğun ses maskeleri kadar ses hacmi yükseltmek.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. tam birim üzerinde gerekli olmadıkça dinleme!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Talimatlar:</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Hafifletmek veya ses terapisi yoluyla kulak çınlaması etkilerini azaltmak.</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>Binaural ses frekansları oynayarak etkili kulak çınlaması maske ve bunu ayarlamak bizim beyin zaman tanıyın.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>Pan L - R kontrol</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>Oynamadan önce istenen bakiyenize ses kaydırmak ihtiyacınız olacak!</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Yürüt</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>Denetim birimi</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>Dış ses yok olmadığı durumlarda tinnitus sinir bozucu hissi işitme ses içerir. Kulak çınlaması belirtiler kulaklarında hayalet sesler bu tür içerir:</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>Hayalet gürültü düşük bir kükreme üzerinden adım yüksek bir tiz ses için farklı olabilir ve bir veya her iki kulaklarında duyabilirsiniz. Bazı durumlarda, ses konsantre veya gerçek sesi duymak için yeteneğinizi etkileyebilir çok yüksek olabilir. Kulak çınlaması zaman, ya gel git ve mevcut tüm olabilir.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>Kulak çınlaması nedir</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Duraklat</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Ses terapisi</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Durdur</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>Yener seçmek kullanılabilir bir dizi var. Düğmeye basıldığında bir ses çalmayı, ne olursa olsun başka oynuyor durdurur.</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>1 beat</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>2 beat</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>3 yendi</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>Yeni bir özellik için bir fikrin var mı?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>Yeni vuruş eklendi görmek ister misiniz?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>Olması gerektiği gibi bir şey çalışmıyor mu?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Senin deneyim ile belgili tanımlık app bazı geribildirim gönderin ve biz yardımcı olmak için elimizden geleni yapacağız! Eğer bir şey bizi daha iyi olabilir biliyorum!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Geribildirim / bize ulaşın</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Gönder </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Geri Bildirim</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Giriş sayfası</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Ses terapisi</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>Kulak çınlaması nedir</value>
+  </data>
+</root>

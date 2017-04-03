@@ -31,6 +31,7 @@
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
+                    <!-- Ad unit for the sidemenu, just testing for now, might remove this one-->
                     <UI:AdControl ApplicationId="4953d198-a21a-4ef3-8db8-e196d2a09c7e"
                         Margin="0,300,0,0"
                         AdUnitId="11677891"
@@ -46,7 +47,7 @@
             <RelativePanel Background="{ThemeResource AppBarBackground}" >
                 <ScrollViewer  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled">
                     <StackPanel RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
-                                     
+                    <!-- Frame which will hold the other views.-->           
                     <Frame x:Name="PageFrame" Margin="0,5,0,0" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"/>
                     
                 </StackPanel>

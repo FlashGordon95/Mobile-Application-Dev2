@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>5150CB20169B45B5133F63C055DD69103B3BF3DC08760169B330CDA47A8DF845</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>475A8C138EB8FAF8F341A27BF0AA2FCAB6AD7DCDAB6DD849EBA655F3D18F8BCF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3808c88b-2183-4cb0-90e3-166807537eac_1.0.0.0_x86__3y0bchp7kwvet</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3808c88b-2183-4cb0-90e3-166807537eac_3y0bchp7kwvet!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3808c88b-2183-4cb0-90e3-166807537eac</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-03T21:14:59.832</Modified>
+      <Modified>2017-04-03T21:51:15.518</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.exe">
       <PackagePath>entrypoint\TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-04-03T21:14:22.037</Modified>
+      <Modified>2017-04-03T21:51:14.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -494,12 +494,12 @@
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
+      <Modified>2017-04-02T18:31:13.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
+      <Modified>2017-04-02T18:31:13.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
@@ -521,11 +521,11 @@
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-03T21:14:59.568</Modified>
+      <Modified>2017-04-03T21:51:15.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\TinnitusSoundTherapy.exe">
       <PackagePath>TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-04-03T21:14:59.827</Modified>
+      <Modified>2017-04-03T21:51:15.510</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>En savoir plus sur les acouphènes</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Retour à la page principale</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>Démarrer une session</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Thérapie des acouphènes Sound</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>Fonctionnement</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. quand commencer Réglez le volume à faible. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. graduellement augmenter le volume du son jusqu'à ce qu’elle masque le bruit que vous entendez.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. ne pas écouter sur le volume complet sauf si nécessaire !</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Mode d’emploi :</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Soulager ou amoindrir les effets de l’acouphène par sonothérapie.</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>En jouant les fréquences sonores Binaural nous effectivement masquer l’acouphène et permettre à notre temps de cerveau à tune.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>Commande Pan L - R</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>Vous aurez besoin pour le panorama de l’audio à votre équilibre souhaité avant de jouer !</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Lire</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>Régler le Volume</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>Acouphènes implique la sensation ennuyeux de son audience quand aucun bruit externe n’est présent. Symptômes d’acouphènes incluent ces types de bruits fantômes dans vos oreilles :</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>Le bruit fantôme peut varier plus aigu d’un faible bruit d’un crissement haut, et vous pouvez l’entendre dans une ou les deux oreilles. Dans certains cas, le son peut être si fort, qu'il peut interférer avec votre capacité à se concentrer ou entendre son réel. L’acouphène peut être présent tout le temps, ou il peut aller et venir.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>Ce qui est des acouphènes</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Pause</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Thérapie par le son</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Arrêter</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>Vous avez un nombre de temps disponibles pour choisir de. Si la lecture d’un son lorsque vous appuyez sur le bouton, s’arrête tout ce qui est.</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>Battre 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>Beat 2</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>Battre 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>Vous avez une idée pour une nouvelle fonctionnalité ?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>Vous souhaitez voir les nouveaux beats ajoutés ?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>Quelque chose ne fonctionne pas comme il se doit ?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Soumettre des commentaires sur votre expérience avec l’application et nous ferons de notre mieux pour aider ! Si quelque chose peut être mieux nous le faire savoir !</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Commentaires / nous contacter</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Envoyer </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Commentaires</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Page d'accueil</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Thérapie par le son</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>Ce qui est des acouphènes</value>
+  </data>
+</root>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Treoracha</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Seinn</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Cuir ar sos</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Stop</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Cuir isteach</value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Aiseolas</value>
+  </data>
+</root>

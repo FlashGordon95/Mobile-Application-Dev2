@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>Läs mer om tinnitus</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Gå tillbaka till huvudsidan</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>Starta en session</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Tinnitus ljud terapi</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>Så här fungerar det</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. När börjar ställa in volymen till låg. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. gradvis höja volymen på ljudet tills det maskerar ljudet du hör.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. Lyssna inte på full volym om det inte behövs!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Instruktioner:</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Lindra eller minska effekterna av tinnitus via ljudterapi.</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>Genom att spela Binaural ljud frekvenser vi effektivt maskera tinnitus och ge vår hjärna tid att ställa det ut.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>Styra Pan L - R</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>Du kommer att behöva panorera ljudet till din önskad balans innan du spelar!</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Spela upp</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>Kontroll av volym</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>Tinnitus innebär irriterande känslan av att höra ljud när inga externa ljud är närvarande. Tinnitus symptom inkluderar dessa typer av phantom oljud i öronen:</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>Phantom buller kan variera i pitch från en låg ryta till en hög skrika, och du kan höra det i ett eller båda öronen. I vissa fall kan ljudet vara så högt att det kan störa din förmåga att koncentrera sig eller höra riktiga ljud. Tinnitus kan vara närvarande all tiden, eller det kan komma och gå.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>Vad är Tinnitus</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Pausa</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Ljudterapi</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Stopp</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>Du har ett antal beats tillgänglig att välja. Om spela upp ett ljud när du trycker på knappen, kommer sluta vad spelar.</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>Slå 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>Sträcka 2</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>Slå 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>Har du en idé till en ny funktion?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>Vill du se nya beats lagt till?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>Något inte fungerar som det ska?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Lämna några synpunkter på din upplevelse med appen och vi kommer att göra vårt bästa för att hjälpa! Om något kan bli bättre låt oss veta!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Feedback / kontakta oss</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Lämna in </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Startsida</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Ljudterapi</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>Vad är Tinnitus</value>
+  </data>
+</root>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>Aprender más sobre tinnitus</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Volver a la página principal</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>Iniciar una sesión de</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Terapia de sonido de zumbido</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>Funcionamiento</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. cuando a partir de ajusta el volumen a la baja. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. gradualmente aumente el volumen del sonido hasta que enmascara el sonido que se escucha.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>¡3. no escuchar a todo volumen a menos que sea necesario!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Instrucciones:</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Aliviar o disminuir los efectos del tinnitus mediante terapia del sonido.</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>Jugando a las frecuencias de sonido Binaural con eficacia enmascarar el tinnitus y nuestro cerebro tiempo sintonizar hacia fuera.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>Control de Pan L - R</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>¡Usted necesitará el audio con el equilibrio deseado de la cacerola antes de jugar!</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Reproducir</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>Volumen de control</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>Zumbido implica la molesta sensación de sonido de audiencia cuando no hay sonido externo está presente. Los síntomas de tinnitus incluyen estos tipos de ruidos fantasmas en sus oídos:</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>El ruido fantasma puede variar en tono desde un rugido bajo un chillido alto y usted puede oír en uno o ambos oídos. En algunos casos, el sonido puede ser tan fuerte que puede interferir con su capacidad para concentrar o sonido real. Tinnitus puede ser presente todo el tiempo, o pueden ir y venir.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>Qué es el Tinnitus</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Pausar</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Terapia del sonido</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Detener</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>Tienes un número de latidos disponibles para seleccionar. Si reproducir un sonido cuando se presiona el botón, se detendrá cualquier cosa es jugando.</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>Pulso 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>Beat 2</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>3 Beat</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>¿Tienes una idea para una nueva función?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>¿Quieres ver nuevos beats ha añadido?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>¿Algo no funciona como debería?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Enviar algunos comentarios sobre su experiencia con la aplicación y haremos nuestro mejor esfuerzo para ayudar! Si algo puede ser mejor nos dejan saber!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Feedback / contacto</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Enviar </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Página principal</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Terapia del sonido</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>Qué es el Tinnitus</value>
+  </data>
+</root>

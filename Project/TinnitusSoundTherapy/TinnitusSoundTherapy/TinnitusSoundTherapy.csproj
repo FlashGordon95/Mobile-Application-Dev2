@@ -125,6 +125,17 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <PRIResource Include="strings\zh-Hans\Resources.resw" />
+    <PRIResource Include="strings\en\Resources.resw" />
+    <PRIResource Include="strings\fr\Resources.resw" />
+    <PRIResource Include="strings\de\Resources.resw" />
+    <PRIResource Include="strings\ga\Resources.resw" />
+    <PRIResource Include="strings\it\Resources.resw" />
+    <PRIResource Include="strings\ja\Resources.resw" />
+    <PRIResource Include="strings\pt\Resources.resw" />
+    <PRIResource Include="strings\ru\Resources.resw" />
+    <PRIResource Include="strings\es\Resources.resw" />
+    <PRIResource Include="strings\sv\Resources.resw" />
+    <PRIResource Include="strings\tr\Resources.resw" />
     <None Include="TinnitusSoundTherapy_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -183,6 +194,17 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.de.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.en.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.es.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.fr.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.ga.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.it.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.ja.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.pt.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.ru.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.sv.xlf" />
+    <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.tr.xlf" />
     <XliffResource Include="MultilingualResources\TinnitusSoundTherapy.zh-Hans.xlf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

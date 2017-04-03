@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>Saiba mais sobre o zumbido</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Voltar à página principal</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>Iniciar uma sessão</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Terapia de som de zumbido</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>Como funciona</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. quando começar definir o volume para baixo. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. gradualmente aumentar o volume do som até que mascara o som que você ouve.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. não ouça no volume máximo a menos que necessário!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Instruções:</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Aliviar ou diminuir os efeitos do zumbido através de terapia do som.</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>Jogando as frequências de som Binaural eficazmente mascarar o zumbido e permitir que o nosso tempo ao cérebro para ajustá-lo para fora.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>Controle Pan L - R</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>Você vai precisar para se deslocar o áudio para o seu equilíbrio desejado antes de jogar!</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Executar</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>Controle de Volume</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>O zumbido envolve a irritante sensação de ouvir som quando nenhum som externo estiver presente. Sintomas de zumbido incluem estes tipos de barulhos de fantasmas em seus ouvidos:</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>O barulho fantasma pode variar no arremesso de um rugido baixo para um grito alto, e você pode ouvi-lo em um ou ambos os ouvidos. Em alguns casos, o som pode ser tão alto que pode interferir com sua capacidade de concentrar-se ou ouvir som real. O zumbido pode ser presente todo o tempo, ou ele pode vir e ir.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>O que é o zumbido</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Pausar</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Terapia do som</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Parar</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>Você tem um número de batidas disponíveis para selecionar. Se reproduzir um som quando o botão é pressionado, vai parar o que está jogando.</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>1 batida</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>2 da batida</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>Bater 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>Você tem uma ideia para um novo recurso?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>Gostaria de ver novas batidas adicionadas?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>Alguma coisa não funciona como deveria?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Enviar algum feedback sobre sua experiência com o app e nós faremos nosso melhor para ajudar! Se algo pode ser melhor deixar-nos sabe!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Gabarito / contate-nos</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Enviar </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Comentários</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Terapia do som</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>O que é o zumbido</value>
+  </data>
+</root>

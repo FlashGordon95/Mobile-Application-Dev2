@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>Ulteriori informazioni su tinnito</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>Torna alla pagina principale</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>Avviare una sessione</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Suono dell'acufene terapia</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>Come funziona</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1. quando a partire impostare il volume su basso. </value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2. gradualmente aumentare il volume del suono fino a quando non si maschera il suono che si sente.</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3. non ascoltare il volume completo a meno che necessario!</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>Istruzioni:</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>Ad alleviare o ridurre gli effetti del tinnito tramite terapia del suono.</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>Giocando le frequenze del suono binaurale abbiamo efficacemente mascherare l'acufene e consentire il nostro tempo di cervello sintonizzare in.</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>Controllo Pan L - R</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>Sarà necessario Pan l'audio al tuo saldo desiderato prima di giocare!</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>Riproduci</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>Controllo del Volume</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>Tinnito comporta la fastidiosa sensazione di suono udito quando nessun suono esterno è presente. Sintomi di tinnito includono questi tipi di fantasma rumori nelle orecchie:</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>Il rumore fantasma può variare in piazzola da un basso ruggito a uno stridio alto, e si può ascoltare in una o entrambe le orecchie. In alcuni casi, il suono può essere così forte che può interferire con la capacità di concentrarsi o di ascoltare il suono reale. Acufene può essere presenti tutto il tempo, o si può andare e venire.</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>Cos'è l'acufene</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>Pausa</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>Terapia del suono</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>Arresta</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>Avete un numero di battiti disponibile per la selezione. Se la riproduzione di un suono quando viene premuto il pulsante, si fermerà a quant'altro sta giocando.</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>Battere 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>Battuto 2</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>Battere 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>Avete un'idea per una nuova funzionalità?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>Ti piacerebbe vedere nuovi Beat aggiunto?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>Qualcosa non funziona come dovrebbe?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Invia un feedback sulla tua esperienza con l'app e faremo del nostro meglio per aiutare! Se qualcosa può essere meglio fatecelo sapere!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Feedback / contattaci</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Invia </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Commenti e suggerimenti</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Terapia del suono</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>Cos'è l'acufene</value>
+  </data>
+</root>

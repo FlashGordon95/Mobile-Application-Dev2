@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.IO.IsolatedStorage;
 using System.Linq;
@@ -31,8 +32,6 @@ namespace TinnitusSoundTherapy
             PageControl.ItemsSource = pages;
             PageFrame.Navigate(typeof(HomePage)); //Initialise our view frame with the homepage.
             Current = this;
-            
-
 
         }
         
@@ -76,7 +75,7 @@ namespace TinnitusSoundTherapy
 
         private void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.WinRT.UI.AdErrorEventArgs e)
         {
-
+            Debug.WriteLine(e.ErrorMessage);
         }
     }
 

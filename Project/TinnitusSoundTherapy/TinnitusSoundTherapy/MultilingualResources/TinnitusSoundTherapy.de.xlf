@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de" original="TINNITUSSOUNDTHERAPY/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="TINNITUSSOUNDTHERAPY/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="aboutPage.Content" translate="yes" xml:space="preserve">
+          <source>Learn more about tinnitus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Erfahren Sie mehr über tinnitus</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Another button which will be used for a new page</note>
+        </trans-unit>
+        <trans-unit id="backButtonRelief.Content" translate="yes" xml:space="preserve">
+          <source>Back to main page</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Zurück zur Hauptseite</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used on the Relief page to go back to main page</note>
+        </trans-unit>
+        <trans-unit id="enterSessionButton.Content" translate="yes" xml:space="preserve">
+          <source>Start a session</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Starten Sie eine Sitzung</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to show the user how to enter the mode.</note>
+        </trans-unit>
+        <trans-unit id="Header.Text" translate="yes" xml:space="preserve">
+          <source>Tinnitus Sound Therapy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tinnitus-Klangtherapie</target>
+        </trans-unit>
+        <trans-unit id="howItWorks.Text" translate="yes" xml:space="preserve">
+          <source>How it works</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Vorgehensweise</target>
+        </trans-unit>
+        <trans-unit id="instructions.Text" translate="yes" xml:space="preserve">
+          <source>1.  When starting set the volume to Low. </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1. Wann beginnen die Lautstärke auf niedrig festgelegt. </target>
+        </trans-unit>
+        <trans-unit id="instructions2.Text" translate="yes" xml:space="preserve">
+          <source>2.  Gradually raise the volume of the sound until it masks the sound you hear.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">(2) erhöhen Sie nach und nach die Lautstärke des Klangs bis es den Klang hören Sie Masken.</target>
+        </trans-unit>
+        <trans-unit id="instructions3.Text" translate="yes" xml:space="preserve">
+          <source>3.  Do not listen on full volume unless needed!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3. hören Sie nicht auf voller Lautstärke, wenn erforderlich!</target>
+        </trans-unit>
+        <trans-unit id="instructionsTitle.Text" translate="yes" xml:space="preserve">
+          <source>Instructions :</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anleitung:</target>
+        </trans-unit>
+        <trans-unit id="mainPageDescription.Text" translate="yes" xml:space="preserve">
+          <source>Alleviate or lessen the effects of tinnitus via sound therapy.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zu lindern oder die Auswirkungen von Tinnitus über Klangtherapie zu verringern.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">What the app does</note>
+        </trans-unit>
+        <trans-unit id="mainPageSubdescription.Text" translate="yes" xml:space="preserve">
+          <source>By playing Binaural sound frequencies we effectively mask the tinnitus and allow our brain time to tune it out.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Durch das Spielen von binauraler Frequenzen wir effektiv den Tinnitus maskieren und unser Gehirn Zeit, um es auszublenden.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A sub description giving deeper explanation into how it works</note>
+        </trans-unit>
+        <trans-unit id="panLabel.Text" translate="yes" xml:space="preserve">
+          <source>Control Pan L - R</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Steuern Sie Pan L - R</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A label for the pan control</note>
+        </trans-unit>
+        <trans-unit id="panSliderTextBox.Text" translate="yes" xml:space="preserve">
+          <source>You will need to Pan the audio to your desired Balance before playing!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Du musst das Audio zu Ihrem gewünschten Guthaben vor dem Spiel Pan!</target>
+        </trans-unit>
+        <trans-unit id="playButton.Content" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Wiedergeben</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A Button to play sound</note>
+        </trans-unit>
+        <trans-unit id="volumeLabel.Text" translate="yes" xml:space="preserve">
+          <source>Control Volume</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Steuervolumen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A label for the volume control</note>
+        </trans-unit>
+        <trans-unit id="whatIsTinnitusExplanation1.Text" translate="yes" xml:space="preserve">
+          <source>Tinnitus involves the annoying sensation of hearing sound when no external sound is present. Tinnitus symptoms include these types of phantom noises in your ears:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tinnitus beinhaltet das lästige Gefühl hören Klang, wenn keine externen Sound vorhanden ist. Tinnitus-Symptome sind diese Arten von phantom Geräusche in den Ohren:</target>
+        </trans-unit>
+        <trans-unit id="whatIsTinnitusExplanation2.Text" translate="yes" xml:space="preserve">
+          <source>The phantom noise may vary in pitch from a low roar to a high squeal, and you may hear it in one or both ears. In some cases, the sound can be so loud it can interfere with your ability to concentrate or hear actual sound. Tinnitus may be present all the time, or it may come and go.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Der phantom Lärm variieren in einer Neigung von einem niedrigen brüllen, ein hohes Quietschen, und Sie können es in einem oder beiden Ohren hören. In einigen Fällen kann der Ton so laut, dass es stören kann, mit Ihrer Fähigkeit zu konzentrieren oder tatsächlichen Klang zu hören sein. Tinnitus kann präsent sein, die Zeit, oder es kommen und gehen kann.</target>
+        </trans-unit>
+        <trans-unit id="whatIsTinnitusLabel.Text" translate="yes" xml:space="preserve">
+          <source>What is Tinnitus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Was ist Tinnitus</target>
+        </trans-unit>
+        <trans-unit id="pauseButton.Content" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Anhalten</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A Button to stop playing sound</note>
+        </trans-unit>
+        <trans-unit id="stHeader.Text" translate="yes" xml:space="preserve">
+          <source>Sound Therapy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klangtherapie</target>
+        </trans-unit>
+        <trans-unit id="stopButton.Content" translate="yes" xml:space="preserve">
+          <source>Stop</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Beenden</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">A Button to stop playing sound</note>
+        </trans-unit>
+        <trans-unit id="instructions4.Text" translate="yes" xml:space="preserve">
+          <source>You have a number of beats available to select from. If playing a sound when the button is pressed , will stop whatever else is playing.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie haben eine Anzahl von Schlägen zur Auswahl zur Verfügung. Wenn ein Sound wiedergegeben, wenn die Taste gedrückt wird, stoppt, was gespielt wird.</target>
+        </trans-unit>
+        <trans-unit id="changeSound1.Content" translate="yes" xml:space="preserve">
+          <source>Beat 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Beat 1</target>
+        </trans-unit>
+        <trans-unit id="changeSound2.Content" translate="yes" xml:space="preserve">
+          <source>Beat 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Beat 2</target>
+        </trans-unit>
+        <trans-unit id="changeSound3.Content" translate="yes" xml:space="preserve">
+          <source>Beat 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3 zu schlagen</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc1.Text" translate="yes" xml:space="preserve">
+          <source>Do you have an idea for a new feature?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Du hast eine Idee für ein neues Feature?</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc2.Text" translate="yes" xml:space="preserve">
+          <source>Would you like to see new beats added?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Möchten Sie sehen, neue Beats hinzugefügt?</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc3.Text" translate="yes" xml:space="preserve">
+          <source>Does something not work like it should?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Funktioniert etwas nicht wie es sollte?</target>
+        </trans-unit>
+        <trans-unit id="feedbackDesc4.Text" translate="yes" xml:space="preserve">
+          <source>Submit some feedback on your experience with the app and we will do our best to help! If something can be better let us know!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senden Sie ein Feedback über Ihre Erfahrungen mit der app und wir werden unser Bestes tun, um zu helfen! Wenn etwas besser lassen Sie es uns sein kann wissen!</target>
+        </trans-unit>
+        <trans-unit id="feedbackTitle.Text" translate="yes" xml:space="preserve">
+          <source>Feedback / Contact Us</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Feedback / Kontakt</target>
+        </trans-unit>
+        <trans-unit id="submitButtonFeedback.Content" translate="yes" xml:space="preserve">
+          <source>Submit </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senden </target>
+        </trans-unit>
+        <trans-unit id="feedbackPage-sidemenu" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Feedback</target>
+        </trans-unit>
+        <trans-unit id="homePageTitle-sidemenu" translate="yes" xml:space="preserve">
+          <source>Homepage</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Startseite</target>
+        </trans-unit>
+        <trans-unit id="soundTherapy-sidemenu" translate="yes" xml:space="preserve">
+          <source>Sound Therapy</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klangtherapie</target>
+        </trans-unit>
+        <trans-unit id="whatisTin-sidemenu" translate="yes" xml:space="preserve">
+          <source>What is Tinnitus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Was ist Tinnitus</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
