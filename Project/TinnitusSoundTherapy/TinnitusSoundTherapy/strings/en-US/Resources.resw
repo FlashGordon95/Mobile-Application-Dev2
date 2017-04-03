@@ -193,4 +193,43 @@
   <data name="instructions4.Text" xml:space="preserve">
     <value>You have a number of beats available to select from. If playing a sound when the button is pressed , will stop whatever else is playing.</value>
   </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>Beat 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>Beat 2</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>Beat 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>Do you have an idea for a new feature?</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>Would you like to see new beats added?</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>Does something not work like it should?</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>Submit some feedback on your experience with the app and we will do our best to help! If something can be better let us know!</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>Feedback / Contact Us</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>Submit </value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>Sound Therapy</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>What is Tinnitus</value>
+  </data>
 </root>

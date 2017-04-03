@@ -156,33 +156,35 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[12];
-            _typeNameTable[0] = "TinnitusSoundTherapy.HomePage";
+            _typeNameTable = new string[13];
+            _typeNameTable[0] = "TinnitusSoundTherapy.Feedback";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "TinnitusSoundTherapy.MainPage";
+            _typeNameTable[3] = "TinnitusSoundTherapy.HomePage";
             _typeNameTable[4] = "Microsoft.Advertising.WinRT.UI.AdControl";
             _typeNameTable[5] = "Windows.UI.Xaml.Controls.StackPanel";
             _typeNameTable[6] = "Windows.UI.Xaml.Controls.Panel";
             _typeNameTable[7] = "String";
             _typeNameTable[8] = "Boolean";
             _typeNameTable[9] = "Int32";
-            _typeNameTable[10] = "TinnitusSoundTherapy.SoundTherapy";
-            _typeNameTable[11] = "TinnitusSoundTherapy.WhatIsTinnitus";
+            _typeNameTable[10] = "TinnitusSoundTherapy.MainPage";
+            _typeNameTable[11] = "TinnitusSoundTherapy.SoundTherapy";
+            _typeNameTable[12] = "TinnitusSoundTherapy.WhatIsTinnitus";
 
-            _typeTable = new global::System.Type[12];
-            _typeTable[0] = typeof(global::TinnitusSoundTherapy.HomePage);
+            _typeTable = new global::System.Type[13];
+            _typeTable[0] = typeof(global::TinnitusSoundTherapy.Feedback);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::TinnitusSoundTherapy.MainPage);
+            _typeTable[3] = typeof(global::TinnitusSoundTherapy.HomePage);
             _typeTable[4] = typeof(global::Microsoft.Advertising.WinRT.UI.AdControl);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.StackPanel);
             _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Panel);
             _typeTable[7] = typeof(global::System.String);
             _typeTable[8] = typeof(global::System.Boolean);
             _typeTable[9] = typeof(global::System.Int32);
-            _typeTable[10] = typeof(global::TinnitusSoundTherapy.SoundTherapy);
-            _typeTable[11] = typeof(global::TinnitusSoundTherapy.WhatIsTinnitus);
+            _typeTable[10] = typeof(global::TinnitusSoundTherapy.MainPage);
+            _typeTable[11] = typeof(global::TinnitusSoundTherapy.SoundTherapy);
+            _typeTable[12] = typeof(global::TinnitusSoundTherapy.WhatIsTinnitus);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -217,11 +219,12 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_HomePage() { return new global::TinnitusSoundTherapy.HomePage(); }
-        private object Activate_3_MainPage() { return new global::TinnitusSoundTherapy.MainPage(); }
+        private object Activate_0_Feedback() { return new global::TinnitusSoundTherapy.Feedback(); }
+        private object Activate_3_HomePage() { return new global::TinnitusSoundTherapy.HomePage(); }
         private object Activate_4_AdControl() { return new global::Microsoft.Advertising.WinRT.UI.AdControl(); }
-        private object Activate_10_SoundTherapy() { return new global::TinnitusSoundTherapy.SoundTherapy(); }
-        private object Activate_11_WhatIsTinnitus() { return new global::TinnitusSoundTherapy.WhatIsTinnitus(); }
+        private object Activate_10_MainPage() { return new global::TinnitusSoundTherapy.MainPage(); }
+        private object Activate_11_SoundTherapy() { return new global::TinnitusSoundTherapy.SoundTherapy(); }
+        private object Activate_12_WhatIsTinnitus() { return new global::TinnitusSoundTherapy.WhatIsTinnitus(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -233,9 +236,9 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  TinnitusSoundTherapy.HomePage
+            case 0:   //  TinnitusSoundTherapy.Feedback
                 userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_HomePage;
+                userType.Activator = Activate_0_Feedback;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -248,9 +251,9 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
                 xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  TinnitusSoundTherapy.MainPage
+            case 3:   //  TinnitusSoundTherapy.HomePage
                 userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_3_HomePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -291,16 +294,23 @@ namespace TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo
                 xamlType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  TinnitusSoundTherapy.SoundTherapy
+            case 10:   //  TinnitusSoundTherapy.MainPage
                 userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_SoundTherapy;
+                userType.Activator = Activate_10_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  TinnitusSoundTherapy.WhatIsTinnitus
+            case 11:   //  TinnitusSoundTherapy.SoundTherapy
                 userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_WhatIsTinnitus;
+                userType.Activator = Activate_11_SoundTherapy;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  TinnitusSoundTherapy.WhatIsTinnitus
+                userType = new global::TinnitusSoundTherapy.TinnitusSoundTherapy_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_WhatIsTinnitus;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

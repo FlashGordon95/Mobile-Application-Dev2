@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>AD01D91EF50789A983F08D0B4B798B9080E1EBBEF673EED14FD906761BEEA213</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>5150CB20169B45B5133F63C055DD69103B3BF3DC08760169B330CDA47A8DF845</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3808c88b-2183-4cb0-90e3-166807537eac_1.0.0.0_x86__3y0bchp7kwvet</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3808c88b-2183-4cb0-90e3-166807537eac_3y0bchp7kwvet!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3808c88b-2183-4cb0-90e3-166807537eac</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-03T19:26:00.035</Modified>
+      <Modified>2017-04-03T21:14:59.832</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.exe">
       <PackagePath>entrypoint\TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-04-03T19:25:59.322</Modified>
+      <Modified>2017-04-03T21:14:22.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -508,7 +508,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.xr.xml">
       <PackagePath>TinnitusSoundTherapy.xr.xml</PackagePath>
-      <Modified>2017-04-03T17:06:09.989</Modified>
+      <Modified>2017-04-03T20:51:21.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.14393.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -521,11 +521,11 @@
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-03T19:25:59.763</Modified>
+      <Modified>2017-04-03T21:14:59.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\TinnitusSoundTherapy.exe">
       <PackagePath>TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-04-03T19:26:00.030</Modified>
+      <Modified>2017-04-03T21:14:59.827</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

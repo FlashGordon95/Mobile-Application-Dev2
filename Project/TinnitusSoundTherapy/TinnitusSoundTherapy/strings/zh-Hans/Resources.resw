@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutPage.Content" xml:space="preserve">
+    <value>了解更多关于耳鸣</value>
+    <comment>Another button which will be used for a new page</comment>
+  </data>
+  <data name="backButtonRelief.Content" xml:space="preserve">
+    <value>返回到主页面</value>
+    <comment>Used on the Relief page to go back to main page</comment>
+  </data>
+  <data name="enterSessionButton.Content" xml:space="preserve">
+    <value>启动会话</value>
+    <comment>Used to show the user how to enter the mode.</comment>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>耳鸣的声音治疗</value>
+  </data>
+  <data name="howItWorks.Text" xml:space="preserve">
+    <value>工作原理</value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>1.当开始设置的音量为低。</value>
+  </data>
+  <data name="instructions2.Text" xml:space="preserve">
+    <value>2.逐步提高音量的声音，直到它掩盖了你听到的声音。</value>
+  </data>
+  <data name="instructions3.Text" xml:space="preserve">
+    <value>3.不要听完整卷上，除非需要 ！</value>
+  </data>
+  <data name="instructionsTitle.Text" xml:space="preserve">
+    <value>说明︰</value>
+  </data>
+  <data name="mainPageDescription.Text" xml:space="preserve">
+    <value>减轻或减少通过声音治疗耳鸣的疗效。</value>
+    <comment>What the app does</comment>
+  </data>
+  <data name="mainPageSubdescription.Text" xml:space="preserve">
+    <value>通过玩双耳的声音频率我们有效地掩盖耳鸣和允许我们大脑的时间把它关掉。</value>
+    <comment>A sub description giving deeper explanation into how it works</comment>
+  </data>
+  <data name="panLabel.Text" xml:space="preserve">
+    <value>控制盘 L-R</value>
+    <comment>A label for the pan control</comment>
+  </data>
+  <data name="panSliderTextBox.Text" xml:space="preserve">
+    <value>您将需要在播放之前潘把音响调到你所期望的平衡 ！</value>
+  </data>
+  <data name="playButton.Content" xml:space="preserve">
+    <value>播放</value>
+    <comment>A Button to play sound</comment>
+  </data>
+  <data name="volumeLabel.Text" xml:space="preserve">
+    <value>控制音量</value>
+    <comment>A label for the volume control</comment>
+  </data>
+  <data name="whatIsTinnitusExplanation1.Text" xml:space="preserve">
+    <value>当没有外部声音是目前耳鸣涉及到讨厌听到声音的感觉。耳鸣的症状包括这些类型的幽灵的声音在你的耳朵︰</value>
+  </data>
+  <data name="whatIsTinnitusExplanation2.Text" xml:space="preserve">
+    <value>幽灵的噪音可能会发生变化，在至高的尖叫声，一阵低吼的步距，你可能会听到它在一个或两个耳朵。在某些情况下，声音可以如此大声，它可以干扰你集中或听到实际声音的能力。耳鸣可能是目前所有的时间，或它可能会来来去去。</value>
+  </data>
+  <data name="whatIsTinnitusLabel.Text" xml:space="preserve">
+    <value>耳鸣是什么</value>
+  </data>
+  <data name="pauseButton.Content" xml:space="preserve">
+    <value>暂停</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="stHeader.Text" xml:space="preserve">
+    <value>声音疗法</value>
+  </data>
+  <data name="stopButton.Content" xml:space="preserve">
+    <value>停止</value>
+    <comment>A Button to stop playing sound</comment>
+  </data>
+  <data name="instructions4.Text" xml:space="preserve">
+    <value>你有大量的可用来从选择的节拍。如果按下该按钮时播放声音，将停止任何别的比赛。</value>
+  </data>
+  <data name="changeSound1.Content" xml:space="preserve">
+    <value>打 1</value>
+  </data>
+  <data name="changeSound2.Content" xml:space="preserve">
+    <value>2 击败</value>
+  </data>
+  <data name="changeSound3.Content" xml:space="preserve">
+    <value>击败 3</value>
+  </data>
+  <data name="feedbackDesc1.Text" xml:space="preserve">
+    <value>你有一项新功能的想法吗？</value>
+  </data>
+  <data name="feedbackDesc2.Text" xml:space="preserve">
+    <value>你想看到添加的新节拍？</value>
+  </data>
+  <data name="feedbackDesc3.Text" xml:space="preserve">
+    <value>一些作品并不像它应该吗？</value>
+  </data>
+  <data name="feedbackDesc4.Text" xml:space="preserve">
+    <value>提交您与应用程序的经验一些反馈，我们将尽我们所能帮助 ！如果东西可以更好地让我们知道 ！</value>
+  </data>
+  <data name="feedbackTitle.Text" xml:space="preserve">
+    <value>反馈 / 联系我们</value>
+  </data>
+  <data name="submitButtonFeedback.Content" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="feedbackPage-sidemenu" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="homePageTitle-sidemenu" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="soundTherapy-sidemenu" xml:space="preserve">
+    <value>声音疗法</value>
+  </data>
+  <data name="whatisTin-sidemenu" xml:space="preserve">
+    <value>耳鸣是什么</value>
+  </data>
+</root>

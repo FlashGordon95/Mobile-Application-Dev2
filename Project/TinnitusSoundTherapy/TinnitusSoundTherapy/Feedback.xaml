@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="TinnitusSoundTherapy.Feedback"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TinnitusSoundTherapy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RelativePanel Background="{ThemeResource AppBarBackground}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <!-- Stack panel which will hold a number of inner stack panels-->
+            <StackPanel Margin="0,10,0,0" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                
+                <!-- A couple of text blocks describing the page -->
+                <TextBlock x:Uid="feedbackTitle" Text="Feedback / Contact Us" Margin="20"></TextBlock>
+                <TextBlock x:Uid="feedbackDesc1" Text="Do you have an idea for a new feature?" Margin="20,10"></TextBlock>
+                <TextBlock x:Uid="feedbackDesc2" Text="Would you like to see new beats added?" Margin="20,10"></TextBlock>
+                <TextBlock x:Uid="feedbackDesc3" Text="Does something not work like it should?" Margin="20,10"></TextBlock>
+                <!-- Request for feedback-->   
+                <TextBlock x:Uid="feedbackDesc4" Text="Submit some feedback on your experience with the app and we will do our best to help! If something can be better let us know!" TextWrapping="WrapWholeWords" Margin="20,40"></TextBlock>
+                <!-- Area where user can enter their feedback-->
+                <TextBox x:Name="feedbackComment" HorizontalAlignment="Stretch" Margin="20,10" Height="100" Background="AntiqueWhite"></TextBox>
+                <!-- Button which opens a mail view with a pre populated message.-->
+                <Button x:Uid="submitButtonFeedback" Margin="30,10" Width="70" Height="40" Content="Submit" Click="Button_Click" >
+                </Button>
+
+
+            </StackPanel>
+        </RelativePanel>
+
+    </Grid>
+</Page>

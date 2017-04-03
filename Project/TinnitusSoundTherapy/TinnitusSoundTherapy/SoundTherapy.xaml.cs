@@ -121,8 +121,8 @@ namespace TinnitusSoundTherapy
                     }
                     if (audioFile.CurrentState != MediaElementState.Playing)
                     {
-                        
 
+                        audioFile.Volume = .2;
                         Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
                         Windows.Storage.StorageFile file = await folder.GetFileAsync(selectedBeat);
                         var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
@@ -201,7 +201,7 @@ namespace TinnitusSoundTherapy
                         audioFile.Position = thePosition; //restore the position of the track
                         
                         audioFile.Balance = Pan.Value; //pan the media element 
-                        audioFile.Volume = .1;
+                        audioFile.Volume = .2;
                         Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
                         Windows.Storage.StorageFile file = await folder.GetFileAsync("beat1.mp3");
                         var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);

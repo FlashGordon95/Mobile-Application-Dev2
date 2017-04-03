@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>strings\en-US\Resources.resw</FileName>
+    <Checksum>24524823237121551242371432321382186124517363</Checksum>
+    <ModifiedTime>2017-04-03T22:10:18.8067873</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\TinnitusSoundTherapy.zh-Hans.xlf</FileName>
+    <Checksum>70481868924245271771011323533101189165232</Checksum>
+    <ModifiedTime>2017-04-03T22:14:50.4328916+01:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>strings\zh-Hans\Resources.resw</FileName>
+    <Checksum>5088155456320106116156184181861399845</Checksum>
+    <ModifiedTime>2017-04-03T22:14:57.6435318+01:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

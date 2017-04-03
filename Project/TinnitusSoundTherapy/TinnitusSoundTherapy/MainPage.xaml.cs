@@ -73,6 +73,11 @@ namespace TinnitusSoundTherapy
         {
             throw new NotImplementedException();
         }
+
+        private void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.WinRT.UI.AdErrorEventArgs e)
+        {
+
+        }
     }
 
   
