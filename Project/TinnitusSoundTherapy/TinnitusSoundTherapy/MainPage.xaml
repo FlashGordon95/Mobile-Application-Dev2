@@ -37,10 +37,13 @@
 
             <!-- SplitView Right Panel -->
             <RelativePanel Background="{ThemeResource AppBarBackground}" >
-                <StackPanel RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                <ScrollViewer  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled">
+                    <StackPanel RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                                     
                     <Frame x:Name="PageFrame" Margin="0,5,0,0" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"/>
+                    
                 </StackPanel>
-                
+                </ScrollViewer>
                 <!-- Maybe room for an advert here??? -->
 
             </RelativePanel>

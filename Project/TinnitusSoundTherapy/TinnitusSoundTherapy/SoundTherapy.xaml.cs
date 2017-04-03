@@ -35,7 +35,12 @@ namespace TinnitusSoundTherapy
         CoreWindow cw = Window.Current.CoreWindow;
         MediaElement audioFile = new MediaElement();
         TimeSpan thePosition;
-        double value;
+
+        // 1. get the link to the settings container
+        ApplicationDataContainer localSettings =
+                    ApplicationData.Current.LocalSettings;
+
+        string selectedBeat;
 
         public SoundTherapy()
         { 
@@ -54,11 +59,15 @@ namespace TinnitusSoundTherapy
                 //    "selectedPan"
                 audioFile.Balance = (double) localSettings.Values["selectedPan"];
                 Pan.Value = audioFile.Balance;
-               
+
+                selectedBeat = (string)localSettings.Values["selectedBeat"];
                 // 3.  if it is there, then set the SelectedIndex of the pivot page
                 //     using the value
+
+                
                 //audioFile.Balance = value;
                 Debug.WriteLine("After loading storage , balance is " + audioFile.Balance);
+                Debug.WriteLine("After loading storage , selected beat is " + selectedBeat);
             }
             catch (Exception exc)
             {
@@ -85,8 +94,10 @@ namespace TinnitusSoundTherapy
         private async void button_Play_Click(object sender, RoutedEventArgs e)
         {
             
+
             switch (audioFile.CurrentState)
             {
+
                 case MediaElementState.Playing:
                     audioFile.Play();
                     break;
@@ -104,16 +115,28 @@ namespace TinnitusSoundTherapy
                     /// On select , stop any playing audio , load in desired track and start playing again
                     /// </summary>
                     /// 
-                    if (audioFile.CurrentState != MediaElementState.Playing )
+                    if (localSettings.Values["selectedBeat"] == null)
                     {
-
+                        selectedBeat = "beat1.mp3";
+                    }
+                    if (audioFile.CurrentState != MediaElementState.Playing)
+                    {
+                        
 
                         Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
-                        Windows.Storage.StorageFile file = await folder.GetFileAsync("beat1.mp3");
+                        Windows.Storage.StorageFile file = await folder.GetFileAsync(selectedBeat);
                         var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
                         audioFile.SetSource(stream, file.ContentType);
 
+                       
+                        // 2. just write the value. This overwrites the value, but in this
+                        //    case, that is not a problem.  If it is, then you may want to check 
+                        //    whether the value exists or not.
+                        localSettings.Values["selectedBeat"] = selectedBeat;
+                        Debug.WriteLine("Wrote this balance to local storage " + localSettings.Values["selectedBeat"]);
+
                     }
+
                     playSound();
                     break;
             }
@@ -231,9 +254,21 @@ namespace TinnitusSoundTherapy
                 var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
                 audioFile.SetSource(stream, file.ContentType);
 
-              //  playSound();
-           
-            
+            //  playSound();
+            // 1. get the link to the settings container
+            ApplicationDataContainer localSettings =
+                        ApplicationData.Current.LocalSettings;
+            // 2. just write the value. This overwrites the value, but in this
+            //    case, that is not a problem.  If it is, then you may want to check 
+            //    whether the value exists or not.
+            localSettings.Values["selectedBeat"] = beatName;
+            Debug.WriteLine("Wrote this balance to local storage " + localSettings.Values["selectedBeat"]);
+
+        }
+
+        private void AdControl_ErrorOccurred(object sender, AdErrorEventArgs e)
+        {
+            Debug.WriteLine(e.ErrorMessage);
         }
     }
         

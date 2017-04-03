@@ -107,10 +107,24 @@
       <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="TinnitusSoundTherapy.MainPage" />
+    <RootType FullName="Microsoft.Advertising.WinRT.UI.AdControl">
+      <RootProperty Name="ApplicationId" />
+      <RootProperty Name="AdUnitId" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootEvent Name="ErrorOccurred" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -120,14 +134,6 @@
       <RootProperty Name="Minimum" />
       <RootProperty Name="StepFrequency" />
       <RootEvent Name="ValueChanged" />
-    </RootType>
-    <RootType FullName="Microsoft.Advertising.WinRT.UI.AdControl">
-      <RootProperty Name="ApplicationId" />
-      <RootProperty Name="AdUnitId" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="TinnitusSoundTherapy.SoundTherapy" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
