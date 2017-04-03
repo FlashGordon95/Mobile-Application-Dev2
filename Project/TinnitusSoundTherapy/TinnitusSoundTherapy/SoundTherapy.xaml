@@ -35,12 +35,12 @@
                     <!-- Stack panel to hold the playback buttons-->
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0,40,0,0" >
                         <!-- A button with a localised versoin of the word 'play'. To be used to start playing sound. -->
-                        <Button x:Uid="changeSound1" Content="Beat 1"  VerticalAlignment="Top" Click="Button_Click_1"/>
+                        <Button x:Uid="changeSound1" Content="Beat 1"  VerticalAlignment="Top" Click="changeBeat"/>
                         <!-- A button with a localised versoin of the word 'stop'. To be used to stop playing sound. -->
-                        <Button x:Uid="changeSound2" Content="Beat 2"  VerticalAlignment="Top" Click="Button_Click_1"/>
+                        <Button x:Uid="changeSound2" Content="Beat 2"  VerticalAlignment="Top" Click="changeBeat"/>
 
                         <!-- A button with a localised versoin of the word 'pause'. To be used to pause playing sound. -->
-                        <Button x:Uid="changeSound3" Content="Beat 3"  VerticalAlignment="Top" Click="Button_Click_1"/>
+                        <Button x:Uid="changeSound3" Content="Beat 3"  VerticalAlignment="Top" Click="changeBeat"/>
                     </StackPanel>
                     <!-- Stack panel to hold the playback buttons-->
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0,40,0,0" >

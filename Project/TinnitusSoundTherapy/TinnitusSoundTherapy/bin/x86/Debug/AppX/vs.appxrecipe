@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-02T18:34:00.483</Modified>
+      <Modified>2017-04-03T15:37:15.912</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.exe">
       <PackagePath>entrypoint\TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-04-01T21:25:20.035</Modified>
+      <Modified>2017-04-03T15:37:15.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,6 +448,18 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T22:11:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Beat1.mp3">
+      <PackagePath>Assets\Beat1.mp3</PackagePath>
+      <Modified>2017-04-03T09:30:35.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Beat2.mp3">
+      <PackagePath>Assets\Beat2.mp3</PackagePath>
+      <Modified>2017-04-03T09:43:46.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Beat3.mp3">
+      <PackagePath>Assets\Beat3.mp3</PackagePath>
+      <Modified>2017-04-03T09:44:18.203</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\sound.mp3">
       <PackagePath>Assets\sound.mp3</PackagePath>
       <Modified>2017-03-04T15:32:58.778</Modified>
@@ -492,11 +504,11 @@
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-02T18:31:13.783</Modified>
+      <Modified>2017-04-02T18:34:12.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\TinnitusSoundTherapy.xr.xml">
       <PackagePath>TinnitusSoundTherapy.xr.xml</PackagePath>
-      <Modified>2017-04-01T21:25:19.847</Modified>
+      <Modified>2017-04-03T13:58:09.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.14393.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -509,11 +521,11 @@
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-01T21:25:20.505</Modified>
+      <Modified>2017-04-03T15:20:54.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ryan\Desktop\Mobile-Application-Dev2\Project\TinnitusSoundTherapy\TinnitusSoundTherapy\bin\x86\Debug\Core\TinnitusSoundTherapy.exe">
       <PackagePath>TinnitusSoundTherapy.exe</PackagePath>
-      <Modified>2017-04-02T18:34:00.467</Modified>
+      <Modified>2017-04-03T15:37:15.908</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

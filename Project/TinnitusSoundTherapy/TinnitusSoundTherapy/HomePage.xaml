@@ -11,12 +11,12 @@
         <RelativePanel Background="{ThemeResource AppBarBackground}">
             <StackPanel>
                 <TextBlock x:Uid="Header" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,0,0,0"/>
-                <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="100" Width="300" FontSize="24" Margin="0,50,0,0"/>
+                <TextBlock x:Uid="mainPageDescription" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" Padding="50,50" FontSize="24" Margin="0,50,0,0"/>
                 <!-- Button to change view to the page for therapy -->
                 <Button x:Uid="enterSessionButton" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="300" Click="button_Click" Margin="0,100,0,0"/>
                 <!-- Text blocks used to describe the app - text gathered from the resources file -->
                 <TextBlock x:Uid="howItWorks" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="24" Margin="0,20,0,0"/>
-                <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="18" Margin="0,50,0,0"/>
+                <TextBlock x:Uid="mainPageSubdescription" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="18" Margin="0,50,0,0" Padding="50,50"/>
 
 
                 <Button x:Uid="aboutPage" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="" Margin="0,0,0,50" Width="300" />

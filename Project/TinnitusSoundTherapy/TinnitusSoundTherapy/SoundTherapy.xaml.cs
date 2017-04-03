@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Media;
@@ -83,8 +84,12 @@ namespace TinnitusSoundTherapy
         /// </summary>
         private async void button_Play_Click(object sender, RoutedEventArgs e)
         {
+            
             switch (audioFile.CurrentState)
             {
+                case MediaElementState.Playing:
+                    audioFile.Play();
+                    break;
                 case MediaElementState.Paused:
                     audioFile.Play();
                     break;
@@ -98,11 +103,17 @@ namespace TinnitusSoundTherapy
                     /// POSSIBLE ENCHANCEMENT: Have a button bar with 3-5 different sounds user can select
                     /// On select , stop any playing audio , load in desired track and start playing again
                     /// </summary>
-                    Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
-                    Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
-                    var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
-                    audioFile.SetSource(stream, file.ContentType);
+                    /// 
+                    if (audioFile.CurrentState != MediaElementState.Playing )
+                    {
 
+
+                        Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+                        Windows.Storage.StorageFile file = await folder.GetFileAsync("beat1.mp3");
+                        var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+                        audioFile.SetSource(stream, file.ContentType);
+
+                    }
                     playSound();
                     break;
             }
@@ -162,14 +173,16 @@ namespace TinnitusSoundTherapy
                         audioFile.Stop();
                         audioFile = new MediaElement();
                         //we now load up the track again
-
-                        Debug.WriteLine("Media currently plating. Time:" + audioFile.Position);
                         
+                    
                         audioFile.Position = thePosition; //restore the position of the track
-
+                        
                         audioFile.Balance = Pan.Value; //pan the media element 
                         audioFile.Volume = .1;
-
+                        Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+                        Windows.Storage.StorageFile file = await folder.GetFileAsync("beat1.mp3");
+                        var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+                        audioFile.SetSource(stream, file.ContentType);
                         audioFile.Play();
 
                         
@@ -202,20 +215,25 @@ namespace TinnitusSoundTherapy
             Debug.WriteLine(audioFile.Position);
         }
 
-        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        private async void changeBeat(object sender, RoutedEventArgs e)
         {
             audioFile.Stop();
             Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
             Random rnd = new Random();
-            int beatNo = rnd.Next(1, 3);
+            int beatNo = rnd.Next(1, 4);
             // Prepare the url within the assets folder for the sound
             //  string selectedBeat = "sound" + beatNo + ".mp3";
             //    Windows.Storage.StorageFile file = await folder.GetFileAsync(selectedBeat);
-            Windows.Storage.StorageFile file = await folder.GetFileAsync("sound.mp3");
-            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
-            audioFile.SetSource(stream, file.ContentType);
+          
+                string beatName = "Beat" + beatNo+".mp3";
+                Debug.WriteLine("Playing "+beatName);
+                Windows.Storage.StorageFile file = await folder.GetFileAsync(beatName);
+                var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+                audioFile.SetSource(stream, file.ContentType);
 
-            playSound();
+              //  playSound();
+           
+            
         }
     }
         

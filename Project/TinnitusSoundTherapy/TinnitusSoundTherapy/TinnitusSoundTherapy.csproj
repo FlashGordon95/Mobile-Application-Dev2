@@ -118,6 +118,9 @@
     <None Include="TinnitusSoundTherapy_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Beat1.mp3" />
+    <Content Include="Assets\Beat2.mp3" />
+    <Content Include="Assets\Beat3.mp3" />
     <Content Include="Assets\sound.mp3" />
     <Content Include="Assets\tinnitusIMG.jpg" />
     <Content Include="Properties\Default.rd.xml" />
